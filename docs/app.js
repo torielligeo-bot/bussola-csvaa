@@ -141,7 +141,7 @@
       <div class="dett"><div class="meta">${dataBreve(n.data)}${n.zona ? ' · ' + esc(n.zona) : ''}</div>
       <h3>${esc(n.titolo)}</h3><div class="meta">${esc(n.sommario)}</div></div></a>`;
   }
-  const bandiAperti = () => dati.bandi.filter(b => !b.scadenza || b.scadenza >= oggiIso())
+  const bandiAperti = () => dati.bandi.filter(b => b.scadenza ? b.scadenza >= oggiIso() : giorniTra(b.pubblicato, oggiIso()) <= 120)
     .sort((a, b) => (a.scadenza || '9999').localeCompare(b.scadenza || '9999'));
   const prossimi = () => dati.eventi.filter(e => e.data >= oggiIso());
 
@@ -271,11 +271,11 @@
 
   function vBandi() {
     const aperti = bandiAperti();
-    const chiusi = dati.bandi.filter(b => b.scadenza && b.scadenza < oggiIso());
+    const aperti_ = new Set(aperti.map(b => b.id)); const chiusi = dati.bandi.filter(b => !aperti_.has(b.id));
     return `<h1>Bandi e contributi</h1>
       <p class="nota">Ti avvisiamo 7 giorni e 1 giorno prima di ogni scadenza.</p>
       ${aperti.map(schedaBando).join('') || '<div class="scheda vuoto">Nessun bando aperto in questo momento.</div>'}
-      ${chiusi.length ? `<h2>Chiusi di recente</h2>${chiusi.slice(0, 6).map(schedaBando).join('')}` : ''}`;
+      ${chiusi.length ? `<h2>Chiusi o scaduti</h2>${chiusi.slice(0, 6).map(schedaBando).join('')}` : ''}`;
   }
 
   function vServizi() {
