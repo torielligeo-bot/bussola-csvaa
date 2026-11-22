@@ -8,6 +8,8 @@
   const MESI = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
   const MESI_BREVI = ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
 
+  const ANDROID = window.BussolaAndroid || null; // presente quando l'app gira nell'APK
+  const URL_APK = 'https://github.com/torielligeo-bot/bussola-csvaa/releases/latest/download/Bussola-CSVAA.apk';
   let dati = { eventi: [], notizie: [], bandi: [], aggiornato: null };
   let utente = null; // utente Firebase, se configurato
   let auth = null;
@@ -151,13 +153,15 @@
     const nuovi = novita();
     const ev = prossimi();
     const ba = (bandiAperti().filter(b => b.scadenza).length ? bandiAperti().filter(b => b.scadenza) : bandiAperti()).slice(0, 3);
-    const notifiche = leggi('notificheAttive', false);
+    const notifiche = ANDROID ? ANDROID.notificheAttive() : leggi('notificheAttive', false);
     const agg = dati.aggiornato ? new Date(dati.aggiornato).toLocaleString('it-IT', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : '';
     return `
       <div class="saluto"><h1>${registrato() ? 'Ciao ' + esc(p.nome) : 'Benvenuto'}</h1>
         <p>${nuovi.length ? `<strong>${nuovi.length} novità</strong> dall'ultima visita` : 'Appuntamenti, formazione e bandi del CSVAA'}</p></div>
       ${!registrato() ? `<div class="richiamo"><strong>Registrati in un minuto</strong><p>Con il profilo puoi prenotare un appuntamento al Punto digitale facile senza riscrivere ogni volta i tuoi dati.</p><a class="bottone" href="#profilo">Registrati</a></div>`
-        : !notifiche ? `<div class="richiamo"><strong>Ricevi le notifiche sul telefono</strong><p>Nuovi appuntamenti, promemoria il giorno prima e bandi in scadenza.</p><a class="bottone" href="#notifiche">Attiva le notifiche</a></div>` : ''}
+        : !notifiche ? (!ANDROID && /Android/i.test(navigator.userAgent)
+          ? `<div class="richiamo"><strong>Installa l'app sul telefono</strong><p>Con l'app Android le notifiche arrivano da sole: nuovi appuntamenti, promemoria e bandi in scadenza.</p><a class="bottone" href="${URL_APK}">Scarica l'app</a></div>`
+          : `<div class="richiamo"><strong>Ricevi le notifiche sul telefono</strong><p>Nuovi appuntamenti, promemoria il giorno prima e bandi in scadenza.</p><a class="bottone" href="#notifiche">Attiva le notifiche</a></div>`) : ''}
       <div class="intestazione-sez"><h2>Prossimi appuntamenti</h2><a href="#calendario">Calendario</a></div>
       ${ev.length ? ev.slice(0, 4).map(schedaEvento).join('') : '<div class="scheda vuoto">Nessun appuntamento in programma nel calendario del CSVAA per ora.</div>'}
       <div class="intestazione-sez"><h2>Bandi aperti</h2><a href="#bandi">Tutti</a></div>
@@ -285,6 +289,7 @@
     return `<h1>Servizi</h1>
       ${voce('#prenota', '🖥', 'Prenota il Punto digitale facile', 'Appuntamento con un facilitatore digitale (SPID, fascicolo sanitario, servizi online)')}
       ${voce('#appuntamenti', '📋', 'I miei appuntamenti', 'Richieste inviate ed eventi salvati')}
+      ${!ANDROID ? voce(URL_APK, '📲', 'Scarica l\'app per Android', 'Installa Bussola sul telefono: notifiche già incluse', true) : ''}
       ${voce('#notifiche', '🔔', 'Notifiche e calendario', 'Ricevi gli avvisi sul telefono')}
       ${voce('https://my.csvastialessandria.it/Frontend/Formazione.aspx', '🎓', 'Iscrizione ai corsi (MyCSVAA)', 'Area riservata del CSVAA per la formazione', true)}
       ${voce(SITO + '/newsletter/iscrizione.asp', '✉', 'Newsletter del CSVAA', 'Iscriviti dal sito', true)}
@@ -394,6 +399,24 @@
       if (!confirm('Eliminare questa prenotazione dall\'app? Se il CSVAA l\'ha già confermata, avvisali per disdire.')) return;
       scrivi('appuntamenti', app.filter(x => x.id !== b.dataset.del)); mostra();
     });
+  }
+
+  function vNotificheAndroid() {
+    const attive = ANDROID.notificheAttive();
+    const ics = new URL('calendario.ics', urlApp()).href.replace(/^https?:/, 'webcal:');
+    return `<a class="indietro" href="#servizi">‹ Servizi</a><h1>Notifiche e calendario</h1>
+      <div class="scheda"><h3>${attive ? '✓ Notifiche attive' : 'Notifiche disattivate'}</h3>
+        <p class="meta">${attive ? 'L\'app controlla ogni ora il calendario del CSVAA e ti avvisa di nuovi appuntamenti, del promemoria la sera prima e dei bandi in scadenza.' : 'Attivale per ricevere nuovi appuntamenti, promemoria e scadenze dei bandi.'}</p>
+        <div class="azioni"><button class="bottone ${attive ? 'leggero' : ''}" id="impNotifiche">${attive ? 'Impostazioni notifiche' : 'Attiva le notifiche'}</button>
+        <button class="bottone leggero" id="controllaOra">Controlla adesso</button></div></div>
+      <h2>Calendario del telefono</h2>
+      <p>Aggiungi il calendario del CSVAA a Google Calendar: appuntamenti e scadenze compaiono insieme ai tuoi impegni e si aggiornano da soli.</p>
+      <div class="azioni"><a class="bottone" href="https://calendar.google.com/calendar/r?cid=${encodeURIComponent(ics)}">Aggiungi a Google Calendar</a></div>
+      <p class="nota">Versione app ${esc(ANDROID.versione())}</p>`;
+  }
+  function dopoNotificheAndroid() {
+    document.getElementById('impNotifiche').onclick = () => ANDROID.apriImpostazioniNotifiche();
+    document.getElementById('controllaOra').onclick = () => { ANDROID.controllaAdesso(); toast('Controllo avviato'); };
   }
 
   function vNotifiche() {
@@ -511,6 +534,13 @@
 
   // ---------- file .ics da scaricare ----------
   function scaricaIcs(nome, voci) {
+    if (ANDROID && voci.length === 1) {
+      const v = voci[0];
+      const inizio = v.ora ? new Date(`${v.data}T${v.ora}:00`) : new Date(`${v.data}T00:00:00`);
+      const fine = v.ora ? new Date(inizio.getTime() + (v.durataMin || 120) * 60000) : new Date(inizio.getTime() + 864e5);
+      ANDROID.aggiungiEvento(v.titolo, inizio.getTime(), fine.getTime(), !v.ora, v.luogo || '', v.descrizione || '');
+      return;
+    }
     const e = s => String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
     const r = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Bussola CSVAA//IT'];
     for (const v of voci) {
@@ -543,7 +573,7 @@
   const VISTE = {
     home: [vHome], calendario: [vCalendario, dopoCalendario], notizie: [vNotizie, dopoNotizie], bandi: [vBandi],
     servizi: [vServizi], prenota: [vPrenota, dopoPrenota], appuntamenti: [vAppuntamenti, dopoAppuntamenti],
-    notifiche: [vNotifiche, dopoNotifiche], profilo: [vProfilo, dopoProfilo],
+    notifiche: ANDROID ? [vNotificheAndroid, dopoNotificheAndroid] : [vNotifiche, dopoNotifiche], profilo: [vProfilo, dopoProfilo],
     evento: [vEvento, dopoEvento], bando: [vBando, dopoBando], giorno: [vGiorno]
   };
   const SEZ_BARRA = { evento: 'calendario', giorno: 'calendario', bando: 'bandi', prenota: 'servizi', appuntamenti: 'servizi', notifiche: 'servizi' };
@@ -571,6 +601,7 @@
     avviaFirebase();
     if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
     // ricarica i dati quando si torna sull'app
+    window.addEventListener('bussola-notifiche', () => mostra());
     document.addEventListener('visibilitychange', async () => { if (!document.hidden) { await caricaDati(); mostra(); } });
   }
   avvio();

@@ -35,6 +35,18 @@ Non servono server né librerie esterne: Node 20 o superiore, GitHub Actions e G
 
 Il nome del canale delle notifiche è in `docs/config.js` (`ntfyTopic`). Chi conosce il nome può leggere il canale: i contenuti sono comunque pubblici sul sito del CSVAA.
 
+## App Android (APK)
+
+La cartella `android/` contiene l'app Android. GitHub la compila da solo a ogni modifica (workflow "Compila app Android") e pubblica il file nella pagina Releases. Il link per scaricare l'ultima versione non cambia:
+
+https://github.com/torielligeo-bot/bussola-csvaa/releases/latest/download/Bussola-CSVAA.apk
+
+L'app mostra le stesse pagine del sito, quindi le migliorie arrivano senza reinstallare. Ogni ora controlla da sola i dati e manda le notifiche: non serve ntfy né alcun account. "Aggiungi al calendario" apre direttamente il calendario del telefono.
+
+Installazione: apri il link dal telefono, scarica il file, aprilo e consenti l'installazione da questa fonte quando Android lo chiede.
+
+La firma dell'APK usa una chiave di prova salvata nel repository (`android/app/bussola-prototipo.jks`). Va bene per provare l'app, ma prima di distribuirla davvero bisogna sostituirla con una chiave privata. Per il Play Store si usa la firma gestita da Google.
+
 ## Accesso con Google ed email (Firebase)
 
 1. Vai su console.firebase.google.com e crea un progetto (gratuito).

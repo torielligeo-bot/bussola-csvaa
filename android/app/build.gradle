@@ -1,0 +1,44 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'it.bussola.csvaa'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'it.bussola.csvaa'
+        minSdk 26
+        targetSdk 35
+        versionCode((project.findProperty('versionCode') ?: '1') as int)
+        versionName "1.0.${project.findProperty('versionCode') ?: '1'}"
+    }
+
+    signingConfigs {
+        // Chiave del prototipo: serve perché gli aggiornamenti si installino sopra la versione precedente.
+        // Per il Play Store si usa la firma gestita da Google (vedi README).
+        prototipo {
+            storeFile file('bussola-prototipo.jks')
+            storePassword 'bussola-prototipo'
+            keyAlias 'bussola'
+            keyPassword 'bussola-prototipo'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.prototipo
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'androidx.work:work-runtime:2.9.1'
+}

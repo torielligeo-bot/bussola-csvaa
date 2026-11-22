@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bussola CSVAA</string>
+    <string name="canale_nome">Appuntamenti e bandi</string>
+    <string name="canale_descrizione">Nuovi appuntamenti, promemoria e scadenze dei bandi del CSVAA</string>
+</resources>
