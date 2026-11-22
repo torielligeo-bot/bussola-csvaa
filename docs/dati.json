@@ -1,24 +1,733 @@
 {
- "aggiornato": "2026-11-22T11:18:08.148Z",
+ "aggiornato": "2026-11-22T11:28:35.581Z",
  "fonte": "https://www.csvastialessandria.it",
  "eventi": [
-  {"id": "2026-10-20|https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci", "data": "2026-10-20", "ora": "15:30", "titolo": "CSVAA: incontri \"Programmazione CSVAA 2027: confrontiamoci!\"", "luogo": "ALESSANDRIA – c/o Sala Iris - Collegio Santa Chiara (Via Volturno 18, parcheggio interno)", "descrizione": "Incontri aperti con le Associazioni per un confronto funzionale ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a punto la Programmazione dei Servizi che chiude la triennalità.", "url": "https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci", "iscrizione": "https://forms.gle/TGi6ug9fDqGP6SFV8", "allegati": []},
-  {"id": "2026-11-05|https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-community-fundraising-per-gli-ets", "data": "2026-11-05", "ora": "17:00", "titolo": "FORMAZIONE CSVAA & Fondazione SociAL: \"Dono, digitale e community fundraising\" per gli ETS", "luogo": "Alessandria – 29 ottobre e 5 novembre", "descrizione": "In presenza ad Alessandria – 29 ottobre e 5 novembre\nIl percorso prevede due incontri in presenza, della durata di due ore ciascuno, che si terranno il 29 ottobre e il 5 novembre dalle 17 alle 19 presso la sede di Cultura e Sviluppo in Piazza Fabrizio De Andre 76, ad Alessandria.", "url": "https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-community-fundraising-per-gli-ets", "iscrizione": "https://forms.gle/4zGC6SP2YqrxfZ4E7", "allegati": [{"nome": "Locandina", "url": "https://www.csvastialessandria.it/cgi-bin/news/10794/Locandina%20Rete%20del%20Dono.pdf"}]},
-  {"id": "2026-11-20|https://www.csvastialessandria.it/2026/11/9/csvaa-incontro-ad-alessandria-di-orientamento-al-volontariato", "data": "2026-11-20", "ora": "18:00", "titolo": "CSVAA: Incontro ad Alessandria di Orientamento al Volontariato", "luogo": "Alessandria, Inchiostro Festival APS in via Bissati, 27", "descrizione": "20 novembre ore 18 – Beviamo un caffè insieme e parliamo di volontariato!\nL'incontro si terrà venerdì 20 novembre alle 18 ad Alessandria nei locali di Inchiostro Festival APS in via Bissati, 27.", "url": "https://www.csvastialessandria.it/2026/11/9/csvaa-incontro-ad-alessandria-di-orientamento-al-volontariato", "iscrizione": "https://forms.gle/uLhUKMst5zqnX5bu5", "allegati": [{"nome": "Locandina", "url": "https://www.csvastialessandria.it/cgi-bin/news/10853/Locandina%20Nuovi%20Volontari.pdf"}]},
-  {"id": "2026-11-28|https://www.csvastialessandria.it/2026/10/15/csvaa-corso-base-sicurezza-sul-lavoro-per-il-no-profit", "data": "2026-11-28", "ora": "", "titolo": "CSVAA: Corso Base \"Sicurezza sul lavoro per il no profit\"", "luogo": "", "descrizione": "Si raccolgono pre-iscrizioni funzionali all’attivazione effettiva del corso.\nIl corso, previsto per sabato 28 novembre, ad Alessandria, in orario 9-13 (4 ore).", "url": "https://www.csvastialessandria.it/2026/10/15/csvaa-corso-base-sicurezza-sul-lavoro-per-il-no-profit", "iscrizione": "https://forms.gle/G7AS76zoxEuqkUbv7", "allegati": []}
+  {
+   "id": "2026-10-13|https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "data": "2026-10-13",
+   "ora": "17:30",
+   "titolo": "CSVAA: incontri \"Programmazione CSVAA 2027: confrontiamoci!\"",
+   "luogo": "ASTI – C/o sede CSVAA (via Brofferio, 110)",
+   "descrizione": "Incontri aperti con le Associazioni per un confronto funzionale ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA è attualmente impegnato , come ogni anno, nella \"Programmazione\" per l'anno a venire: sta cioè mettendo a punto la strategia operativa e le linee d'azione, in termini di erogazione dei servizi agli ETS, da adottare nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettualità 2024-2027, l'ultimo quindi in cui il Centro Servizi opera secondo direttive individuate nel 2024 e che hanno visto il passaggio dalla mera erogazione di singoli servizi a una collaborazione strategica con gli ETS.\nUn passaggio obbligato che mirava a sviluppare le capacità organizzative e l'autonomia delle associazioni per fare fronte alle rimodulazioni del budget globale a disposizione del CSVAA e che si è tradotto necessariamente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogati dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferimento del mondo del volontariato, operando per offrire un sup",
+   "url": "https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "iscrizione": "https://forms.gle/TGi6ug9fDqGP6SFV8",
+   "allegati": []
+  },
+  {
+   "id": "2026-10-16|https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "data": "2026-10-16",
+   "ora": "10:00",
+   "titolo": "CSVAA: incontri \"Programmazione CSVAA 2027: confrontiamoci!\"",
+   "luogo": "ACQUI TERME – c/o sede Associazione Nazionale Alpini Sezione di Acqui Terme (piazza Don Dolermo)",
+   "descrizione": "Incontri aperti con le Associazioni per un confronto funzionale ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA è attualmente impegnato , come ogni anno, nella \"Programmazione\" per l'anno a venire: sta cioè mettendo a punto la strategia operativa e le linee d'azione, in termini di erogazione dei servizi agli ETS, da adottare nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettualità 2024-2027, l'ultimo quindi in cui il Centro Servizi opera secondo direttive individuate nel 2024 e che hanno visto il passaggio dalla mera erogazione di singoli servizi a una collaborazione strategica con gli ETS.\nUn passaggio obbligato che mirava a sviluppare le capacità organizzative e l'autonomia delle associazioni per fare fronte alle rimodulazioni del budget globale a disposizione del CSVAA e che si è tradotto necessariamente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogati dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferimento del mondo del volontariato, operando per offrire un sup",
+   "url": "https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "iscrizione": "https://forms.gle/TGi6ug9fDqGP6SFV8",
+   "allegati": []
+  },
+  {
+   "id": "2026-10-20|https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "data": "2026-10-20",
+   "ora": "15:30",
+   "titolo": "CSVAA: incontri \"Programmazione CSVAA 2027: confrontiamoci!\"",
+   "luogo": "ALESSANDRIA – c/o Sala Iris - Collegio Santa Chiara (Via Volturno 18, parcheggio interno)",
+   "descrizione": "Incontri aperti con le Associazioni per un confronto funzionale ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA è attualmente impegnato , come ogni anno, nella \"Programmazione\" per l'anno a venire: sta cioè mettendo a punto la strategia operativa e le linee d'azione, in termini di erogazione dei servizi agli ETS, da adottare nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettualità 2024-2027, l'ultimo quindi in cui il Centro Servizi opera secondo direttive individuate nel 2024 e che hanno visto il passaggio dalla mera erogazione di singoli servizi a una collaborazione strategica con gli ETS.\nUn passaggio obbligato che mirava a sviluppare le capacità organizzative e l'autonomia delle associazioni per fare fronte alle rimodulazioni del budget globale a disposizione del CSVAA e che si è tradotto necessariamente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogati dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferimento del mondo del volontariato, operando per offrire un sup",
+   "url": "https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "iscrizione": "https://forms.gle/TGi6ug9fDqGP6SFV8",
+   "allegati": []
+  },
+  {
+   "id": "2026-10-23|https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "data": "2026-10-23",
+   "ora": "10:00",
+   "titolo": "CSVAA: incontri \"Programmazione CSVAA 2027: confrontiamoci!\"",
+   "luogo": "CASALE MONFERRATO – c/o Sportello del CSVAA (via Leardi, 10 presso Anffas)",
+   "descrizione": "Incontri aperti con le Associazioni per un confronto funzionale ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA è attualmente impegnato , come ogni anno, nella \"Programmazione\" per l'anno a venire: sta cioè mettendo a punto la strategia operativa e le linee d'azione, in termini di erogazione dei servizi agli ETS, da adottare nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettualità 2024-2027, l'ultimo quindi in cui il Centro Servizi opera secondo direttive individuate nel 2024 e che hanno visto il passaggio dalla mera erogazione di singoli servizi a una collaborazione strategica con gli ETS.\nUn passaggio obbligato che mirava a sviluppare le capacità organizzative e l'autonomia delle associazioni per fare fronte alle rimodulazioni del budget globale a disposizione del CSVAA e che si è tradotto necessariamente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogati dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferimento del mondo del volontariato, operando per offrire un sup",
+   "url": "https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci",
+   "iscrizione": "https://forms.gle/TGi6ug9fDqGP6SFV8",
+   "allegati": []
+  },
+  {
+   "id": "2026-10-29|https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-community-fundraising-per-gli-ets",
+   "data": "2026-10-29",
+   "ora": "17:00",
+   "titolo": "FORMAZIONE CSVAA & Fondazione SociAL: \"Dono, digitale e community fundraising\" per gli ETS",
+   "luogo": "Alessandria – 29 ottobre e 5 novembre",
+   "descrizione": "In presenza ad Alessandria – 29 ottobre e 5 novembre\nNell'ambito delle attività di accompagnamento e rafforzamento rivolte agli Enti del Terzo Settore delle province di Asti e Alessandria, il CSVAA , in collaborazione con Fondazione SociAL e Rete del Dono , promuove un percorso formativo dedicato al fundraising digitale e al community fundraising.\nIl percorso prevede due incontri in presenza , della durata di due ore ciascuno , con un approccio divulgativo ma fortemente orientato alla pratica, che si terranno il 29 ottobre e il 5 novembre dalle 17 alle 19 in presenza presso la sede di Cultura e Sviluppo in Piazza Fabrizio De Andre 76, ad Alessandria.\nL'iniziativa nasce con l'obiettivo di offrire agli enti una lettura aggiornata dei cambiamenti che stanno trasformando il mondo del dono e della raccolta fondi , fornendo al tempo stesso strumenti pratici per sviluppare strategie più partecipative, sostenibili e strettamente connesse al territorio. Per molte organizzazioni, in particolare quelle che si avvicinano per la prima volta al fundraising strutturato, il digitale e il crowdfunding rappresentano infatti un'opportunità concreta per aumentare la propria visibilità , coinvolgere nu",
+   "url": "https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-community-fundraising-per-gli-ets",
+   "iscrizione": "https://forms.gle/4zGC6SP2YqrxfZ4E7",
+   "allegati": [
+    {
+     "nome": "Locandina",
+     "url": "https://www.csvastialessandria.it/cgi-bin/news/10794/Locandina%20Rete%20del%20Dono.pdf"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05|https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-community-fundraising-per-gli-ets",
+   "data": "2026-11-05",
+   "ora": "17:00",
+   "titolo": "FORMAZIONE CSVAA & Fondazione SociAL: \"Dono, digitale e community fundraising\" per gli ETS",
+   "luogo": "Alessandria – 29 ottobre e 5 novembre",
+   "descrizione": "In presenza ad Alessandria – 29 ottobre e 5 novembre\nNell'ambito delle attività di accompagnamento e rafforzamento rivolte agli Enti del Terzo Settore delle province di Asti e Alessandria, il CSVAA , in collaborazione con Fondazione SociAL e Rete del Dono , promuove un percorso formativo dedicato al fundraising digitale e al community fundraising.\nIl percorso prevede due incontri in presenza , della durata di due ore ciascuno , con un approccio divulgativo ma fortemente orientato alla pratica, che si terranno il 29 ottobre e il 5 novembre dalle 17 alle 19 in presenza presso la sede di Cultura e Sviluppo in Piazza Fabrizio De Andre 76, ad Alessandria.\nL'iniziativa nasce con l'obiettivo di offrire agli enti una lettura aggiornata dei cambiamenti che stanno trasformando il mondo del dono e della raccolta fondi , fornendo al tempo stesso strumenti pratici per sviluppare strategie più partecipative, sostenibili e strettamente connesse al territorio. Per molte organizzazioni, in particolare quelle che si avvicinano per la prima volta al fundraising strutturato, il digitale e il crowdfunding rappresentano infatti un'opportunità concreta per aumentare la propria visibilità , coinvolgere nu",
+   "url": "https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-community-fundraising-per-gli-ets",
+   "iscrizione": "https://forms.gle/4zGC6SP2YqrxfZ4E7",
+   "allegati": [
+    {
+     "nome": "Locandina",
+     "url": "https://www.csvastialessandria.it/cgi-bin/news/10794/Locandina%20Rete%20del%20Dono.pdf"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20|https://www.csvastialessandria.it/2026/11/9/csvaa-incontro-ad-alessandria-di-orientamento-al-volontariato",
+   "data": "2026-11-20",
+   "ora": "18:00",
+   "titolo": "CSVAA: Incontro ad Alessandria di Orientamento al Volontariato",
+   "luogo": "Alessandria, Inchiostro Festival APS in via Bissati, 27",
+   "descrizione": "20 novembre ore 18 – Beviamo un caffè insieme e parliamo di volontariato!\nIl CSVAA prosegue con l'attività di informazione ed orientamento a favore di chi ha voglia di mettersi in gioco .\nPropone, in merito, un incontro ad Alessandria rivolto ad aspiranti volontari, funzionali ad illustrare cosa significhi \"fare volontariato\" e quali opportunità sul territorio possono rispondere alle aspettative di ciascuno.\nL'incontro si terrà venerdì 20 novembre alle 18 ad Alessandria nei locali di Inchiostro Festival APS in via Bissati, 27.\nFare volontariato non ti mette sopra gli altri , ti cambia dentro , aiutandoti a crescere e a sviluppare nuove capacità.\nPer poter partecipare basta iscriversi compilando qui il modulo .\nPer rendere questo incontro ancora più proficuo e utile ai nuovi volontari, invitiamo le Associazioni (area Alessandria) che siano alla ricerca di volontari a comunicarlo al CSVAA.\nPer informazioni: 0131.25.03.89 - al@csvastialessandria.it",
+   "url": "https://www.csvastialessandria.it/2026/11/9/csvaa-incontro-ad-alessandria-di-orientamento-al-volontariato",
+   "iscrizione": "https://forms.gle/uLhUKMst5zqnX5bu5",
+   "allegati": [
+    {
+     "nome": "Locandina",
+     "url": "https://www.csvastialessandria.it/cgi-bin/news/10853/Locandina%20Nuovi%20Volontari.pdf"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28|https://www.csvastialessandria.it/2026/10/15/csvaa-corso-base-sicurezza-sul-lavoro-per-il-no-profit",
+   "data": "2026-11-28",
+   "ora": "",
+   "titolo": "CSVAA: Corso Base \"Sicurezza sul lavoro per il no profit\"",
+   "luogo": "",
+   "descrizione": "Si raccolgono pre-iscrizioni funzionali all’attivazione effettiva del corso\nIl CSVAA intende proporre a fine novembre un corso di formazione di base dedicato alla \"Sicurezza sul lavoro\" mirato agli Enti del Terzo Settore visto che, in tema di sicurezza sul lavoro, gli ETS sono equiparati alle Imprese.\nIl datore di lavoro deve predisporre tutte le misure necessarie per proteggere la salute e la sicurezza dei lavoratori che esercitano qualsiasi attività all'interno dell'azienda: il concetto - e la normativa ad esso connessa - si estende anche al mondo delle Associazioni .\nNel rispetto del principio di economicità, il corso, previsto per sabato 28 novembre, ad Alessandria, in orario 9 -13 (4 ore), sarà attivato esclusivamente a fronte di un numero significativo di ETS/Volontari interessati.\nIl CSVAA raccoglie quindi le pre-iscrizioni sino a lunedì 26 ottobre a questo link .\nA fronte di un numero adeguato di adesioni saranno aperte le iscrizioni vere e proprie.\nFacciamo presente che per partecipare sarà richiesto un deposito cauzionale di € 20 da versare, al momento dell'iscrizione, con bonifico bancario . La cauzione sarà restituita a corso effettivamente frequentato\nPer informazioni ",
+   "url": "https://www.csvastialessandria.it/2026/10/15/csvaa-corso-base-sicurezza-sul-lavoro-per-il-no-profit",
+   "iscrizione": "https://forms.gle/G7AS76zoxEuqkUbv7",
+   "allegati": []
+  }
  ],
  "notizie": [
-  {"id": "https://www.csvastialessandria.it/2026/11/19/incontro-passi-sicuri-formazione-per-una-prevenzione-efficace-dalle-truffe", "data": "2026-11-19", "titolo": "Incontro \"Passi sicuri: formazione per una prevenzione efficace dalle truffe\"", "sommario": "Venerdì 27 novembre, ad Alessandria in presenza, a cura di Human Art…", "url": "https://www.csvastialessandria.it/2026/11/19/incontro-passi-sicuri-formazione-per-una-prevenzione-efficace-dalle-truffe", "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10869/IMMAGINE%20PASSI%20SICURI.png", "zona": "Alessandria"},
-  {"id": "https://www.csvastialessandria.it/2026/11/19/corso-base-sicurezza-sul-lavoro-per-il-no-profit", "data": "2026-11-19", "titolo": "Corso base \"Sicurezza sul lavoro per il no profit\"", "sommario": "Sabato 28 novembre, in presenza (4 ore) ad Alessandria…", "url": "https://www.csvastialessandria.it/2026/11/19/corso-base-sicurezza-sul-lavoro-per-il-no-profit", "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10870/IMMAGINE%20SICUREZZA.png", "zona": ""},
-  {"id": "https://www.csvastialessandria.it/2026/11/13/focus-il-bilancio-preventivo-cosa-sapere", "data": "2026-11-13", "titolo": "Focus \"IL BILANCIO PREVENTIVO: COSA SAPERE\"", "sommario": "Giovedì 19 novembre, online a cura di Luigi Gastini (commercialista)…", "url": "https://www.csvastialessandria.it/2026/11/13/focus-il-bilancio-preventivo-cosa-sapere", "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10854/IMMAGINE%20BILANCIO.png", "zona": ""},
-  {"id": "https://www.csvastialessandria.it/2026/11/13/anche-il-volontariato-presente-al-magico-paese-di-natale", "data": "2026-11-13", "titolo": "Anche il volontariato presente al Magico Paese di Natale", "sommario": "Asti – Due le casette riservate alle associazioni…", "url": "https://www.csvastialessandria.it/2026/11/13/anche-il-volontariato-presente-al-magico-paese-di-natale", "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10858/Immagine%20Mercatini.jpg", "zona": "Asti"},
-  {"id": "https://www.csvastialessandria.it/2026/11/5/cosa-dicono-le-nuove-linee-guida-per-la-rendicontazione-del-5-per-mille", "data": "2026-11-05", "titolo": "Cosa dicono le nuove linee guida per la rendicontazione del 5 per mille", "sommario": "Pubblicato il decreto direttoriale n. 257/2026 che aggiorna le regole per gli enti del Terzo settore…", "url": "https://www.csvastialessandria.it/2026/11/5/cosa-dicono-le-nuove-linee-guida-per-la-rendicontazione-del-5-per-mille", "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10840/IMMAGINE%20RENDICONTAZIONE.png", "zona": ""},
-  {"id": "https://www.csvastialessandria.it/2026/11/5/natale-solidale-ad-alessandria", "data": "2026-11-05", "titolo": "Natale solidale ad Alessandria", "sommario": "Ricerca di Volontari e Associazioni per pacchetti regalo e banchetti solidali…", "url": "https://www.csvastialessandria.it/2026/11/5/natale-solidale-ad-alessandria", "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10843/IMMAGINE%20NATALE.png", "zona": "Alessandria"}
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/25/mercoledi-25-novembre",
+   "data": "2026-11-25",
+   "titolo": "Mercoledì 25 novembre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/25/mercoledi-25-novembre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10880/IMMAGINE%2025.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/23/salute--territorio-e-volontariato-anteas-asti-promuove-il-convegno-mangiare-bene-per-stare-bene",
+   "data": "2026-11-23",
+   "titolo": "Salute, territorio e volontariato: Anteas Asti promuove il convegno \"Mangiare bene per stare bene\"",
+   "sommario": "Asti - Lunedì 23 novembre al Polo Universitario, l’incontro gratuito con il prof. Giorgio Calabrese e i vertici nazionali dell’associazione…",
+   "url": "https://www.csvastialessandria.it/2026/11/23/salute--territorio-e-volontariato-anteas-asti-promuove-il-convegno-mangiare-bene-per-stare-bene",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10874/Immagine%20Anteas%20Asti.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/22/domenica-22-novembre",
+   "data": "2026-11-22",
+   "titolo": "Domenica 22 novembre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/22/domenica-22-novembre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10879/IMMAGINE%2022.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/21/sabato-21-novembre",
+   "data": "2026-11-21",
+   "titolo": "Sabato 21 novembre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/21/sabato-21-novembre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10878/IMMAGINE%2021.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/21/cena-dell-abbraccio-2026",
+   "data": "2026-11-21",
+   "titolo": "Cena dell'Abbraccio 2026",
+   "sommario": "Valverde Castelletto Monferrato – Cena e lotteria per sostenere i progetti de L’Abbraccio in Benin…",
+   "url": "https://www.csvastialessandria.it/2026/11/21/cena-dell-abbraccio-2026",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10865/IMMAGINE%20ABBRACCIO.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/21/con-jada-e-adal-obesita-e-diabete-oltre-lo-stigma-e-la-colpa-individuale",
+   "data": "2026-11-21",
+   "titolo": "Con JADA e ADAL \"Obesità e diabete: oltre lo stigma e la colpa individuale\"",
+   "sommario": "Alessandria – Convegno scientifico su nuove terapie, innovazione tecnologica e inclusione. Al centro la persona, non il pregiudizio.…",
+   "url": "https://www.csvastialessandria.it/2026/11/21/con-jada-e-adal-obesita-e-diabete-oltre-lo-stigma-e-la-colpa-individuale",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10873/IMMAGINE%20ADAL.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/21/nuovi-appuntamenti-con-gli-illegali---blogal",
+   "data": "2026-11-21",
+   "titolo": "Nuovi appuntamenti con Gli Illegali - BlogAL",
+   "sommario": "Alessandria – Continuano le Rassegne Ambra Brama e Teatro in Crescita…",
+   "url": "https://www.csvastialessandria.it/2026/11/21/nuovi-appuntamenti-con-gli-illegali---blogal",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10875/IMMAGINE%20ILLEGALI.jpeg",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/21/libri-per-tutti-un-incontro-per-una-biblioteca-sempre-piu-accessibile",
+   "data": "2026-11-21",
+   "titolo": "\"LIBRI PER TUTTI\": Un incontro per una Biblioteca sempre più accessibile",
+   "sommario": "Acqui Terme – Evento organizzato dall’Associazione P.E.N.S.A.…",
+   "url": "https://www.csvastialessandria.it/2026/11/21/libri-per-tutti-un-incontro-per-una-biblioteca-sempre-piu-accessibile",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10877/IMMAGINE%20PENSA.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/20/altri-eventi-sul-territorio",
+   "data": "2026-11-20",
+   "titolo": "Altri eventi sul territorio",
+   "sommario": "In provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/20/altri-eventi-sul-territorio",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10881/IMMAGINE%20ALTRI%20EVENTI.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/20/libera-presenta-il-dossier-linea-libera-asti-2025-un-indagine-sulla-percezione-della-legalita-e-della-sicurezza",
+   "data": "2026-11-20",
+   "titolo": "Libera presenta il dossier \"Linea Libera Asti 2025\": un'indagine sulla percezione della legalità e della sicurezza",
+   "sommario": "Asti – Presso il Salone della Provincia, saranno illustrati i dati raccolti tra gli operatori economici astigiani sulla presenza di usura, estorsione e corruzione…",
+   "url": "https://www.csvastialessandria.it/2026/11/20/libera-presenta-il-dossier-linea-libera-asti-2025-un-indagine-sulla-percezione-della-legalita-e-della-sicurezza",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10872/Immagine%20Libera.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/19/il-volontariato-protagonista-in-radio-anche-questa-settimana-(e-sono-disponibili-le-puntate-precedenti)",
+   "data": "2026-11-19",
+   "titolo": "Il volontariato protagonista in radio anche questa settimana (e sono disponibili le puntate precedenti!)",
+   "sommario": "Ospiti L’Abbraccio, ASSEFA, Associazione Parkinson Gli Amici di Lucia e L’Ulivo e il libro…",
+   "url": "https://www.csvastialessandria.it/2026/11/19/il-volontariato-protagonista-in-radio-anche-questa-settimana-(e-sono-disponibili-le-puntate-precedenti)",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10745/IMMAGINE%20RADIO.jpg",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/19/incontro-passi-sicuri-formazione-per-una-prevenzione-efficace-dalle-truffe",
+   "data": "2026-11-19",
+   "titolo": "Incontro \"Passi sicuri: formazione per una prevenzione efficace dalle truffe\"",
+   "sommario": "Venerdì 27 novembre, ad Alessandria in presenza, a cura di Human Art…",
+   "url": "https://www.csvastialessandria.it/2026/11/19/incontro-passi-sicuri-formazione-per-una-prevenzione-efficace-dalle-truffe",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10869/IMMAGINE%20PASSI%20SICURI.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/19/corso-base-sicurezza-sul-lavoro-per-il-no-profit",
+   "data": "2026-11-19",
+   "titolo": "Corso base \"Sicurezza sul lavoro per il no profit\"",
+   "sommario": "Sabato 28 novembre, in presenza (4 ore) ad Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/19/corso-base-sicurezza-sul-lavoro-per-il-no-profit",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10870/IMMAGINE%20SICUREZZA.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/19/beni-confiscati--anci-e-csvnet-insieme-per-restituirli-alle-comunita-attraverso-progetti-sociali",
+   "data": "2026-11-19",
+   "titolo": "Beni confiscati, ANCI e CSVnet insieme per restituirli alle comunità attraverso progetti sociali",
+   "sommario": "Implementato a livello operativo l’accordo siglato nel 2024 per favorire la collaborazione tra Comuni, Centri di servizio per il volontariato ed ETS. Il protocollo sottoscritto da Gaetano Manfredi e Chiara Tommasini…",
+   "url": "https://www.csvastialessandria.it/2026/11/19/beni-confiscati--anci-e-csvnet-insieme-per-restituirli-alle-comunita-attraverso-progetti-sociali",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10871/IMMAGINE%20BENI.jpeg",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/19/con-il-progetto-l-acaps-incontra-la-scuola-l-edizione-2026-porta-i-segreti-della-polizia-scientifica-anche-a-torino",
+   "data": "2026-11-19",
+   "titolo": "Con il progetto \"L'ACAPS incontra la Scuola\": l'edizione 2026 porta i segreti della Polizia Scientifica anche a Torino",
+   "sommario": "Al via la terza edizione dell'iniziativa realizzata in collaborazione con la Questura di Asti e il Gabinetto Interregionale per il Piemonte e la Valle d'Aosta…",
+   "url": "https://www.csvastialessandria.it/2026/11/19/con-il-progetto-l-acaps-incontra-la-scuola-l-edizione-2026-porta-i-segreti-della-polizia-scientifica-anche-a-torino",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10876/Immagine%20ACAPS.jpeg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/16/un--due--tre-stella",
+   "data": "2026-11-16",
+   "titolo": "UN, DUE, TRE... STELLA!",
+   "sommario": "Alessandria - Festival di celebrazione della Giornata Internazionale dei Diritti dell’Infanzia…",
+   "url": "https://www.csvastialessandria.it/2026/11/16/un--due--tre-stella",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10864/IMMAGINE%20CAMBALACHE.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/15/domenica-15-novembre",
+   "data": "2026-11-15",
+   "titolo": "Domenica 15 novembre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/15/domenica-15-novembre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10867/IMMAGINE%2015.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/15/spettacolo-teatrale-nove-giorni-a-cura-della-compagnia-teatrovillaggioindipendente",
+   "data": "2026-11-15",
+   "titolo": "Spettacolo teatrale \"Nove Giorni\" a cura della Compagnia Teatrovillaggioindipendente",
+   "sommario": "San Baudolino – Con l’Associazione Teatro Insieme…",
+   "url": "https://www.csvastialessandria.it/2026/11/15/spettacolo-teatrale-nove-giorni-a-cura-della-compagnia-teatrovillaggioindipendente",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10863/IMMAGINE%20TEATRO.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/14/sabato-14-novembre",
+   "data": "2026-11-14",
+   "titolo": "Sabato 14 novembre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/14/sabato-14-novembre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10866/IMMAGINE%2014.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/14/convegno-scientifico-dedicato-alla-sindrome-di-lynch-e-alla-genetica-oncologica",
+   "data": "2026-11-14",
+   "titolo": "Convegno Scientifico dedicato alla Sindrome di Lynch e alla Genetica Oncologica",
+   "sommario": "Asti - Dalla genetica alla clinica: l'approccio multidisciplinare nella gestione dei tumori intestinali e ginecologici…",
+   "url": "https://www.csvastialessandria.it/2026/11/14/convegno-scientifico-dedicato-alla-sindrome-di-lynch-e-alla-genetica-oncologica",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10860/Immagine-Lilt-Asti.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/14/premio-davide-lajolo-il-ramarro-2026-a-gad-lerner",
+   "data": "2026-11-14",
+   "titolo": "Premio Davide Lajolo \"Il ramarro\" 2026 a Gad Lerner",
+   "sommario": "Asti - Il riconoscimento al giornalista per il suo contributo all’innovazione dell’informazione e il suo impegno da voce critica e indipendente. La cerimonia il 14 novembre alla Biblioteca Astense…",
+   "url": "https://www.csvastialessandria.it/2026/11/14/premio-davide-lajolo-il-ramarro-2026-a-gad-lerner",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10861/Immagine%20Associazione%20Davide%20Lajolo.png",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/14/insieme-ad-asti-una-giornata-aperta-alla-cittadinanza-per-la-prevenzione-e-il-contrasto-alla-violenza-di-genere",
+   "data": "2026-11-14",
+   "titolo": "INSIEME. Ad Asti una giornata aperta alla cittadinanza per la prevenzione e il contrasto alla violenza di genere",
+   "sommario": "Asti - Con la Fondazione Goria un pomeriggio di dialogo e laboratori aperti a tutti…",
+   "url": "https://www.csvastialessandria.it/2026/11/14/insieme-ad-asti-una-giornata-aperta-alla-cittadinanza-per-la-prevenzione-e-il-contrasto-alla-violenza-di-genere",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10862/Immagine%20Fondazione%20Goria.png",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/13/focus-il-bilancio-preventivo-cosa-sapere",
+   "data": "2026-11-13",
+   "titolo": "Focus \"IL BILANCIO PREVENTIVO: COSA SAPERE\"",
+   "sommario": "Giovedì 19 novembre, online a cura di Luigi Gastini (commercialista)…",
+   "url": "https://www.csvastialessandria.it/2026/11/13/focus-il-bilancio-preventivo-cosa-sapere",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10854/IMMAGINE%20BILANCIO.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/13/un-tour-inclusivo-alla-scoperta-di-borgo-rovereto",
+   "data": "2026-11-13",
+   "titolo": "Un Tour Inclusivo alla scoperta di Borgo Rovereto",
+   "sommario": "Sabato 14 novembre dalle 14 – Un pomeriggio dedicato alla valorizzazione del patrimonio storico, culturale, enogastronomico e associativo della città…",
+   "url": "https://www.csvastialessandria.it/2026/11/13/un-tour-inclusivo-alla-scoperta-di-borgo-rovereto",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10855/IMMAGINE%20BORGOROVERETO.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/13/la-giornata-della-colletta-alimentare",
+   "data": "2026-11-13",
+   "titolo": "La Giornata della Colletta Alimentare",
+   "sommario": "Sabato 14 novembre…",
+   "url": "https://www.csvastialessandria.it/2026/11/13/la-giornata-della-colletta-alimentare",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10856/IMMAGINE%20COLLETTA%20AL.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/13/ecco-digital-forum-2026-ad-alessandria-cinque-giorni-dedicati-all-intelligenza-artificiale--dagli-agenti-ai-al-rapporto-con-le-nuove-generazioni",
+   "data": "2026-11-13",
+   "titolo": "ECCO Digital Forum 2026: ad Alessandria cinque giorni dedicati all'intelligenza artificiale, dagli agenti AI al rapporto con le nuove generazioni",
+   "sommario": "Dal 16 al 20 novembre – Presente anche l’Associazione GAPP…",
+   "url": "https://www.csvastialessandria.it/2026/11/13/ecco-digital-forum-2026-ad-alessandria-cinque-giorni-dedicati-all-intelligenza-artificiale--dagli-agenti-ai-al-rapporto-con-le-nuove-generazioni",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10857/IMMAGINE%20ECCO.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/13/anche-il-volontariato-presente-al-magico-paese-di-natale",
+   "data": "2026-11-13",
+   "titolo": "Anche il volontariato presente al Magico Paese di Natale",
+   "sommario": "Asti – Due le casette riservate alle associazioni…",
+   "url": "https://www.csvastialessandria.it/2026/11/13/anche-il-volontariato-presente-al-magico-paese-di-natale",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10858/Immagine%20Mercatini.jpg",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/13/urban-training---percorso-di-allenamento-in-citta",
+   "data": "2026-11-13",
+   "titolo": "Urban Training - Percorso di allenamento in città",
+   "sommario": "Alessandria – Nel progetto “GPA – Giovani Protagonisti Alessandria”…",
+   "url": "https://www.csvastialessandria.it/2026/11/13/urban-training---percorso-di-allenamento-in-citta",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10859/IMMAGINE%20URBAN.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/13/altri-eventi-sul-territorio",
+   "data": "2026-11-13",
+   "titolo": "Altri eventi sul territorio",
+   "sommario": "In provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/13/altri-eventi-sul-territorio",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10868/IMMAGINE%20ALTRI%20EVENTI.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/9/csvaa-incontro-ad-alessandria-di-orientamento-al-volontariato",
+   "data": "2026-11-09",
+   "titolo": "CSVAA: Incontro ad Alessandria di Orientamento al Volontariato",
+   "sommario": "20 novembre ore 18 – Beviamo un caffè insieme e parliamo di volontariato!…",
+   "url": "https://www.csvastialessandria.it/2026/11/9/csvaa-incontro-ad-alessandria-di-orientamento-al-volontariato",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10853/IMMAGINE%20NUOVI%20VOLONTARI%20X%20SITO.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/8/domenica-8-novembre",
+   "data": "2026-11-08",
+   "titolo": "Domenica 8 novembre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/8/domenica-8-novembre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10851/IMMAGINE%208.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/7/sabato-7-novembre",
+   "data": "2026-11-07",
+   "titolo": "Sabato 7 novembre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/7/sabato-7-novembre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10850/IMMAGINE%207.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/7/ad-alessandria-e-provincia-tornano-i-cioccolatini-della-ricerca-airc",
+   "data": "2026-11-07",
+   "titolo": "Ad Alessandria e provincia tornano i Cioccolatini della Ricerca AIRC",
+   "sommario": "Un piccolo gesto per grandi progressi…",
+   "url": "https://www.csvastialessandria.it/2026/11/7/ad-alessandria-e-provincia-tornano-i-cioccolatini-della-ricerca-airc",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10845/IMMAGINE%20AIRC.jpg",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/6/portami-via-festival-2026-dalla-forza-e-l-inerme-alla-forza-dell-inerme",
+   "data": "2026-11-06",
+   "titolo": "Portami via Festival 2026: dalla «forza e l'inerme» alla «forza dell'inerme»",
+   "sommario": "Tre giorni di musica, cinema, letteratura e testimonianze, per raccontare la forza della fragilità, il valore della memoria e la resistenza come forma di libertà…",
+   "url": "https://www.csvastialessandria.it/2026/11/6/portami-via-festival-2026-dalla-forza-e-l-inerme-alla-forza-dell-inerme",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10848/IMMAGINE%20PORTAMI%20VIA.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/ottobre-alessandrino-2026-si-conclude-l-edizione-con-la-prima-collaborazione-con-il-csvaa",
+   "data": "2026-11-05",
+   "titolo": "Ottobre Alessandrino 2026: si conclude l'edizione con la prima collaborazione con il CSVAA",
+   "sommario": "Il CSVAA ringrazia gli ETS e i volontari che hanno collaborato alla manifestazione…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/ottobre-alessandrino-2026-si-conclude-l-edizione-con-la-prima-collaborazione-con-il-csvaa",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10838/IMMAGINE%20OTTOBRE.jpg",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/richiesta-di-supporto-volontario-per-l-accompagnamento-di-studenti",
+   "data": "2026-11-05",
+   "titolo": "Richiesta di supporto volontario per l'accompagnamento di studenti",
+   "sommario": "Dalla scuola secondaria di primo grado “A. Vivaldi” al centro Rovereto Park…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/richiesta-di-supporto-volontario-per-l-accompagnamento-di-studenti",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10839/IMMAGINE%20VIVALDI.jpg",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/cosa-dicono-le-nuove-linee-guida-per-la-rendicontazione-del-5-per-mille",
+   "data": "2026-11-05",
+   "titolo": "Cosa dicono le nuove linee guida per la rendicontazione del 5 per mille",
+   "sommario": "Pubblicato il decreto direttoriale n. 257/2026 che aggiorna le regole per gli enti del Terzo settore. Confermati gli adempimenti, in linea con l’attenzione alla trasparenza verso cittadini e sostenitori…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/cosa-dicono-le-nuove-linee-guida-per-la-rendicontazione-del-5-per-mille",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10840/IMMAGINE%20RENDICONTAZIONE.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/csvnet-piemonte-e-libera-piemonte-insieme-per-la-legalita",
+   "data": "2026-11-05",
+   "titolo": "CSVnet Piemonte e Libera Piemonte insieme per la legalità",
+   "sommario": "Firmato il protocollo per promuovere il riuso sociale dei beni confiscati alle mafie…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/csvnet-piemonte-e-libera-piemonte-insieme-per-la-legalita",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10841/IMMAGINE%20LIBERA.jpg",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/percorsi-formativi-alternativi-per-gli-studenti-sanzionati-gli-enti-del-terzo-settore-possono-candidarsi-per-accoglierli",
+   "data": "2026-11-05",
+   "titolo": "Percorsi formativi alternativi per gli studenti sanzionati: gli Enti del Terzo Settore possono candidarsi per accoglierli",
+   "sommario": "Gli ETS disponibili ad accogliere gli studenti sospesi dalle lezioni possono presentare la propria candidatura attraverso la procedura attivata dall’Ufficio Scolastico Regionale del Piemonte…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/percorsi-formativi-alternativi-per-gli-studenti-sanzionati-gli-enti-del-terzo-settore-possono-candidarsi-per-accoglierli",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10842/IMMAGINE%20USR.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/natale-solidale-ad-alessandria",
+   "data": "2026-11-05",
+   "titolo": "Natale solidale ad Alessandria",
+   "sommario": "Ricerca di Volontari e Associazioni per pacchetti regalo e banchetti solidali…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/natale-solidale-ad-alessandria",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10843/IMMAGINE%20NATALE.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/altri-eventi-sul-territorio",
+   "data": "2026-11-05",
+   "titolo": "Altri eventi sul territorio",
+   "sommario": "In provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/altri-eventi-sul-territorio",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10852/IMMAGINE%20ALTRI%20EVENTI.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/corso-per-soccorritori-118",
+   "data": "2026-11-05",
+   "titolo": "Corso per Soccorritori 118",
+   "sommario": "Felizzano – Serata di presentazione…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/corso-per-soccorritori-118",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10828/IMMAGINE%20FELIZZANO.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/al-via-la-campagna-clementine-biologiche-e-non-solo",
+   "data": "2026-11-05",
+   "titolo": "Al via la Campagna \"Clementine biologiche e non solo...\"",
+   "sommario": "Alessandria – A cura di Verso il Kurdistan ODV…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/al-via-la-campagna-clementine-biologiche-e-non-solo",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10847/IMMAGINE%20KURDISTAN.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/importante-novita-per-l-associazione-nazionale-a-sostegno-dei-lavoratori-fragili-e-con-disabilita",
+   "data": "2026-11-05",
+   "titolo": "Importante novità per l'Associazione Nazionale a Sostegno dei Lavoratori Fragili e con Disabilità",
+   "sommario": "Montabone – Una nuova sede per ospitare uno sportello di ascolto e orientamento…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/importante-novita-per-l-associazione-nazionale-a-sostegno-dei-lavoratori-fragili-e-con-disabilita",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10849/IMMAGINE%20LAVORATORI.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/com-eri-vestita-torna-sul-territorio-la-mostra-che-smantella-i-pregiudizi",
+   "data": "2026-11-05",
+   "titolo": "Com'eri vestita? Torna sul territorio la mostra che smantella i pregiudizi",
+   "sommario": "Nizza Monferrato – L’esposizione itinerante dà voce alle storie vere di violenza, raccontate attraverso gli abiti che le vittime indossavano nel momento dell’abuso…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/com-eri-vestita-torna-sul-territorio-la-mostra-che-smantella-i-pregiudizi",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10844/IMMAGINE%20AMNESTY%20ASTI.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/5/adolescenti-in-crisi-e-il-ruolo-degli-adulti-al-via-il-nuovo-corso-gratuito-di-libera-asti",
+   "data": "2026-11-05",
+   "titolo": "Adolescenti in crisi e il ruolo degli adulti: al via il nuovo corso gratuito di Libera Asti",
+   "sommario": "Asti – Tre incontri a Astiss per costruire una nuova alleanza educativa…",
+   "url": "https://www.csvastialessandria.it/2026/11/5/adolescenti-in-crisi-e-il-ruolo-degli-adulti-al-via-il-nuovo-corso-gratuito-di-libera-asti",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10846/IMMAGINE%20LIBERA%20ASTI.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/2/inserto-di-natale-del-csvaa-dedicato-alle-iniziative-degli-ets",
+   "data": "2026-11-02",
+   "titolo": "Inserto di Natale del CSVAA dedicato alle iniziative degli ETS",
+   "sommario": "Dateci notizia delle vostre iniziative “natalizie” e noi… ne daremo notizia: c’è tempo sino al 20 novembre…",
+   "url": "https://www.csvastialessandria.it/2026/11/2/inserto-di-natale-del-csvaa-dedicato-alle-iniziative-degli-ets",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10837/immagine%20sito111.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/2/torna-il-corso-di-informatica-nonni-digitali-e-connessi",
+   "data": "2026-11-02",
+   "titolo": "Torna il corso di informatica \"Nonni digitali e connessi\"",
+   "sommario": "Alessandria – Quattro incontri a novembre promossi dall’Associazione ADA…",
+   "url": "https://www.csvastialessandria.it/2026/11/2/torna-il-corso-di-informatica-nonni-digitali-e-connessi",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10800/IMMAGINE%20ADA.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/11/1/altri-eventi-sul-territorio",
+   "data": "2026-11-01",
+   "titolo": "Altri eventi sul territorio",
+   "sommario": "In provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/11/1/altri-eventi-sul-territorio",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10836/IMMAGINE%20ALTRI%20EVENTI.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/31/sabato-31-ottobre",
+   "data": "2026-10-31",
+   "titolo": "Sabato 31 ottobre",
+   "sommario": "Gli eventi in provincia di Asti e Alessandria…",
+   "url": "https://www.csvastialessandria.it/2026/10/31/sabato-31-ottobre",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10835/IMMAGINE%2031.png",
+   "zona": ""
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/31/comunita-e-biodiversita-la-bricula-presenta-il-progetto-europeo-bioup",
+   "data": "2026-10-31",
+   "titolo": "Comunità e biodiversità: La Bricula presenta il progetto europeo BioUP",
+   "sommario": "Cortiglione - Dedicato all’educazione alla biodiversità e alla valorizzazione del patrimonio naturale del Monferrato…",
+   "url": "https://www.csvastialessandria.it/2026/10/31/comunita-e-biodiversita-la-bricula-presenta-il-progetto-europeo-bioup",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10831/IMMAGINE%20LA%20BRICULA.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/31/un-halloween-ricco-di-appuntamenti-di-solidarieta-per-grandi-e-piccini",
+   "data": "2026-10-31",
+   "titolo": "Un Halloween ricco di appuntamenti di solidarietà per grandi e piccini",
+   "sommario": "Solidarietà, natura, giochi e gastronomia con le associazioni del territorio…",
+   "url": "https://www.csvastialessandria.it/2026/10/31/un-halloween-ricco-di-appuntamenti-di-solidarieta-per-grandi-e-piccini",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10833/IMMAGINE%20Halloween.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/29/donazione-da-parte-di-smurfit-westrock-di-un-sollevatore-per-persone-con-disabilita",
+   "data": "2026-10-29",
+   "titolo": "Donazione da parte di Smurfit Westrock di un sollevatore per persone con disabilità",
+   "sommario": "Novi Ligure – Per un nuoto ancora più inclusivo…",
+   "url": "https://www.csvastialessandria.it/2026/10/29/donazione-da-parte-di-smurfit-westrock-di-un-sollevatore-per-persone-con-disabilita",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10830/IMMAGINE%20NOVI.jpg",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/29/nuova-edizione-del-corso-lis-di-1-livello",
+   "data": "2026-10-29",
+   "titolo": "Nuova edizione del corso LIS di 1° Livello",
+   "sommario": "Alessandria – Promosso dall’Associazione LISten APS in collaborazione con l’Istituto dei Sordi di Torino…",
+   "url": "https://www.csvastialessandria.it/2026/10/29/nuova-edizione-del-corso-lis-di-1-livello",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10832/IMMAGINE%20LISTEN.png",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/29/asl-at-avviso-pubblico-per-l-integrazione-e-l-aggiornamento-dell-elenco-degli-ets-qualificati-a-collaborare-con-l-asl-at",
+   "data": "2026-10-29",
+   "titolo": "ASL AT: Avviso pubblico per l'integrazione e l'aggiornamento dell'Elenco degli ETS qualificati a collaborare con l'ASL AT",
+   "sommario": "Asti – Presentazione delle istanze entro il 20 novembre…",
+   "url": "https://www.csvastialessandria.it/2026/10/29/asl-at-avviso-pubblico-per-l-integrazione-e-l-aggiornamento-dell-elenco-degli-ets-qualificati-a-collaborare-con-l-asl-at",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10826/IMMAGINE%20ASL%20AT.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/29/al-via-il-corso-gratuito-sulla-conduzione-di-gruppi-di-auto-mutuo-aiuto",
+   "data": "2026-10-29",
+   "titolo": "Al via il corso gratuito sulla conduzione di gruppi di auto-mutuo-aiuto",
+   "sommario": "Asti - Promosso da Forum Amico, Associazione Alzheimer Asti ed Erickson, il percorso formativo gratuito prevede tre incontri online e uno in presenza…",
+   "url": "https://www.csvastialessandria.it/2026/10/29/al-via-il-corso-gratuito-sulla-conduzione-di-gruppi-di-auto-mutuo-aiuto",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10829/IMMAGINE%20Forum%20Amico.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/24/open-day-anpas-2026-ritmo-di-vita-next",
+   "data": "2026-10-24",
+   "titolo": "Open Day Anpas 2026 \"Ritmo di Vita NEXT\"",
+   "sommario": "Mille giovani formati gratuitamente all’uso del defibrillatore…",
+   "url": "https://www.csvastialessandria.it/2026/10/24/open-day-anpas-2026-ritmo-di-vita-next",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10816/IMMAGINE%20ANPAS.jpg",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/23/inclusione-scolastica-e-diritti--ama-promuove-un-percorso-di-formazione-e-confronto-per-costruire-una-societa-piu-inclusiva",
+   "data": "2026-10-23",
+   "titolo": "Inclusione scolastica e diritti, AMA promuove un percorso di formazione e confronto per costruire una società più inclusiva",
+   "sommario": "Asti - Ciclo di incontri nell’ambito del progetto “Inclusion for all”, affiancato da un appuntamento dedicato alla memoria e alla dignità delle persone ricoverate negli istituti…",
+   "url": "https://www.csvastialessandria.it/2026/10/23/inclusione-scolastica-e-diritti--ama-promuove-un-percorso-di-formazione-e-confronto-per-costruire-una-societa-piu-inclusiva",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10813/IMMAGINE%20AMA%20ASTI.jpg",
+   "zona": "Asti"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/22/nuovi-appuntamenti--corsi-e-laboratori-con-accademia-monferrato",
+   "data": "2026-10-22",
+   "titolo": "Nuovi appuntamenti, corsi e laboratori con Accademia Monferrato",
+   "sommario": "Castelletto Monferrato - Un ricco calendario di attività…",
+   "url": "https://www.csvastialessandria.it/2026/10/22/nuovi-appuntamenti--corsi-e-laboratori-con-accademia-monferrato",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10814/IMMAGINE%20ACCADEMIA.jpg",
+   "zona": "Alessandria"
+  },
+  {
+   "id": "https://www.csvastialessandria.it/2026/10/22/passi-sicuri-incontri-di-supporto-e-informazione",
+   "data": "2026-10-22",
+   "titolo": "Passi Sicuri: Incontri di supporto e informazione",
+   "sommario": "Alessandria – 3 incontri promossi da Human Art…",
+   "url": "https://www.csvastialessandria.it/2026/10/22/passi-sicuri-incontri-di-supporto-e-informazione",
+   "immagine": "https://www.csvastialessandria.it/cgi-bin/news/10818/IMMAGINE%20HUMAN.png",
+   "zona": "Alessandria"
+  }
  ],
  "bandi": [
-  {"id": "bando-249", "pubblicato": "2026-10-01", "scadenza": "2026-10-09", "titolo": "Bando Oratori, Terzo Settore, ex ONLUS 2026 per arredi, spazi esterni e sport", "sommario": "Domande fino al 9 ottobre. Il bando promosso dal Dipartimento per lo Sport mette a disposizione contributi fino a 50.000 € per la...", "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=249"},
-  {"id": "bando-248", "pubblicato": "2026-05-28", "scadenza": "", "titolo": "Bando \"Break the Loop\": finanziamenti e percorsi di accompagnamento per progetti di giovani under 30 delle province di Asti e Biella", "sommario": "Finestra di candidatura: dal 1° giugno al 31 luglio 2026...", "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=248"},
-  {"id": "bando-247", "pubblicato": "2026-05-21", "scadenza": "2026-07-07", "titolo": "Bando 8 Regione Piemonte", "sommario": "È stato pubblicato il Bando 8 della Regione Piemonte, che mira a finanziare interventi di rilevanza locale, promuovendo iniziative sociali,...", "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=247"},
-  {"id": "bando-238", "pubblicato": "2026-02-26", "scadenza": "", "titolo": "Fondazione CRT: Bando richieste ordinarie", "sommario": "Aperto il Bando Ordinarie 2026 della Fondazione CRT, lo strumento attraverso cui la Fondazione sostiene iniziative coerenti con i...", "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=238"}
+  {
+   "id": "bando-249",
+   "pubblicato": "2026-10-01",
+   "scadenza": "2026-10-09",
+   "titolo": "Bando Oratori, Terzo Settore, ex ONLUS 2026 per arredi, spazi esterni e sport",
+   "sommario": "Domande fino al 9 ottobre\nIl bando promosso dal Dipartimento per lo Sport mette a disposizione contributi fino a 50.000 € per la...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=249"
+  },
+  {
+   "id": "bando-248",
+   "pubblicato": "2026-05-28",
+   "scadenza": "",
+   "titolo": "Bando \"Break the Loop\": finanziamenti e percorsi di accompagnamento per progetti di giovani under 30 delle province di Asti e Biella",
+   "sommario": "inestra di candidatura: dal 1° giugno al 31 luglio 2026\nI giovani non sono semplici spettatori, ma i veri protagonisti del cambiamento....",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=248"
+  },
+  {
+   "id": "bando-247",
+   "pubblicato": "2026-05-21",
+   "scadenza": "2026-07-07",
+   "titolo": "Bando 8 Regione Piemonte",
+   "sommario": "È stato pubblicato il Bando 8 della Regione Piemonte, che mira a finanziare interventi di rilevanza locale, promuovendo iniziative sociali,...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=247"
+  },
+  {
+   "id": "bando-244",
+   "pubblicato": "2026-03-31",
+   "scadenza": "2026-04-16",
+   "titolo": "Immagini e Prospettive",
+   "sommario": "Immagini e prospettive è il progetto della Fondazione CRT dedicato alle attività espositive, al design ed ai festival...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=244"
+  },
+  {
+   "id": "bando-245",
+   "pubblicato": "2026-03-31",
+   "scadenza": "2026-04-21",
+   "titolo": "Bando per l’internazionalizzazione dell’offerta culturale",
+   "sommario": "La Fondazione Compagnia di San Paolo guarda alla cultura come elemento chiave per il benessere delle persone, la...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=245"
+  },
+  {
+   "id": "bando-246",
+   "pubblicato": "2026-03-31",
+   "scadenza": "2026-05-31",
+   "titolo": "La musica che fa bene ai bambini",
+   "sommario": "La Musica come fattore comune delle Nostre Aree di Impegno.Siamo convinti che la Musica, come strumento di cura, educazione e integrazione,...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=246"
+  },
+  {
+   "id": "bando-237",
+   "pubblicato": "2026-02-26",
+   "scadenza": "2026-03-17",
+   "titolo": "Fondazione CRT: Bando Missione Soccorso",
+   "sommario": "Missione Soccorso è il bando della Fondazione CRT che contribuisce all’efficienza dei servizi di primo soccorso espletati dalle...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=237"
+  },
+  {
+   "id": "bando-238",
+   "pubblicato": "2026-02-26",
+   "scadenza": "",
+   "titolo": "Fondazione CRT: Bando richieste ordinarie",
+   "sommario": "Aperto il Bando Ordinarie 2026 della Fondazione CRT, lo strumento attraverso cui la Fondazione sostiene iniziative coerenti con i...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=238"
+  },
+  {
+   "id": "bando-239",
+   "pubblicato": "2026-02-26",
+   "scadenza": "",
+   "titolo": "Consiglio Regionale Piemonte: Patrocini onerosi",
+   "sommario": "Patrocini onerosi 2026\nDUP N. 324/2025 - Criteri e modalità per l'organizzazione e la partecipazione a iniziative e manifestazioni...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=239"
+  },
+  {
+   "id": "bando-240",
+   "pubblicato": "2026-02-26",
+   "scadenza": "2026-03-15",
+   "titolo": "Leroy Merlin: \"Bricolage del Cuore\"",
+   "sommario": "Migliorare la casa significa migliorare la vita.Per questo motivo, siamo orgogliosi di annunciare l'apertura della Call 2026 per il \"Bricolage del...",
+   "url": "https://www.csvastialessandria.it/bandi/articolo.asp?id=240"
+  }
  ]
 }

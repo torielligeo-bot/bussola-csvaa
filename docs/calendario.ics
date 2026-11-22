@@ -1,0 +1,423 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bussola CSVAA//prototipo//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CSVAA – Appuntamenti e scadenze
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d439dc651d7391336651d365216817c6ec5d65f9@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;TZID=Europe/Rome:20261013T173000
+DTEND;TZID=Europe/Rome:20261013T193000
+SUMMARY:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+LOCATION:ASTI – C/o sede CSVAA (via Brofferio\, 110)
+DESCRIPTION:Incontri aperti con le Associazioni per un confronto funzional
+ e ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a 
+ punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA 
+ è attualmente impegnato \, come ogni anno\, nella "Programmazione" per l
+ 'anno a venire: sta cioè mettendo a punto la strategia operativa e le li
+ nee d'azione\, in termini di erogazione dei servizi agli ETS\, da adottar
+ e nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il 
+ CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettua
+ lità 2024-2027\, l'ultimo quindi in cui il Centro Servizi opera secondo 
+ direttive individuate nel 2024 e che hanno visto il passaggio dalla mera 
+ erogazione di singoli servizi a una collaborazione strategica con gli ETS
+ .\nUn passaggio obbligato che mirava a sviluppare le capacità organizzat
+ ive e l'autonomia delle associazioni per fare fronte alle rimodulazioni d
+ el budget globale a disposizione del CSVAA e che si è tradotto necessari
+ amente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogat
+ i dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferi
+ mento del mondo del volontariato\, operando per offrire un sup\n\nIscrizi
+ oni: https://forms.gle/TGi6ug9fDqGP6SFV8\n\nhttps://www.csvastialessandri
+ a.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci
+URL:https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazi
+ one-csvaa-2027-confrontiamoci
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20847cc51842b692573076ff9b09850a955cc794@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;TZID=Europe/Rome:20261016T100000
+DTEND;TZID=Europe/Rome:20261016T120000
+SUMMARY:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+LOCATION:ACQUI TERME – c/o sede Associazione Nazionale Alpini Sezione di
+  Acqui Terme (piazza Don Dolermo)
+DESCRIPTION:Incontri aperti con le Associazioni per un confronto funzional
+ e ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a 
+ punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA 
+ è attualmente impegnato \, come ogni anno\, nella "Programmazione" per l
+ 'anno a venire: sta cioè mettendo a punto la strategia operativa e le li
+ nee d'azione\, in termini di erogazione dei servizi agli ETS\, da adottar
+ e nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il 
+ CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettua
+ lità 2024-2027\, l'ultimo quindi in cui il Centro Servizi opera secondo 
+ direttive individuate nel 2024 e che hanno visto il passaggio dalla mera 
+ erogazione di singoli servizi a una collaborazione strategica con gli ETS
+ .\nUn passaggio obbligato che mirava a sviluppare le capacità organizzat
+ ive e l'autonomia delle associazioni per fare fronte alle rimodulazioni d
+ el budget globale a disposizione del CSVAA e che si è tradotto necessari
+ amente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogat
+ i dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferi
+ mento del mondo del volontariato\, operando per offrire un sup\n\nIscrizi
+ oni: https://forms.gle/TGi6ug9fDqGP6SFV8\n\nhttps://www.csvastialessandri
+ a.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci
+URL:https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazi
+ one-csvaa-2027-confrontiamoci
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c64c173e304ba3733dac797e19fdebb403ac2aed@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;TZID=Europe/Rome:20261020T153000
+DTEND;TZID=Europe/Rome:20261020T173000
+SUMMARY:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+LOCATION:ALESSANDRIA – c/o Sala Iris - Collegio Santa Chiara (Via Voltur
+ no 18\, parcheggio interno)
+DESCRIPTION:Incontri aperti con le Associazioni per un confronto funzional
+ e ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a 
+ punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA 
+ è attualmente impegnato \, come ogni anno\, nella "Programmazione" per l
+ 'anno a venire: sta cioè mettendo a punto la strategia operativa e le li
+ nee d'azione\, in termini di erogazione dei servizi agli ETS\, da adottar
+ e nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il 
+ CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettua
+ lità 2024-2027\, l'ultimo quindi in cui il Centro Servizi opera secondo 
+ direttive individuate nel 2024 e che hanno visto il passaggio dalla mera 
+ erogazione di singoli servizi a una collaborazione strategica con gli ETS
+ .\nUn passaggio obbligato che mirava a sviluppare le capacità organizzat
+ ive e l'autonomia delle associazioni per fare fronte alle rimodulazioni d
+ el budget globale a disposizione del CSVAA e che si è tradotto necessari
+ amente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogat
+ i dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferi
+ mento del mondo del volontariato\, operando per offrire un sup\n\nIscrizi
+ oni: https://forms.gle/TGi6ug9fDqGP6SFV8\n\nhttps://www.csvastialessandri
+ a.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci
+URL:https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazi
+ one-csvaa-2027-confrontiamoci
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:611ecd58bebfbe686a3fe534ba1c7f501c179fd0@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;TZID=Europe/Rome:20261023T100000
+DTEND;TZID=Europe/Rome:20261023T120000
+SUMMARY:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+LOCATION:CASALE MONFERRATO – c/o Sportello del CSVAA (via Leardi\, 10 pr
+ esso Anffas)
+DESCRIPTION:Incontri aperti con le Associazioni per un confronto funzional
+ e ad illustrare le Linee Guida che il CSVAA dovrà seguire per mettere a 
+ punto la Programmazione dei Servizi che chiude la triennalità\nIl CSVAA 
+ è attualmente impegnato \, come ogni anno\, nella "Programmazione" per l
+ 'anno a venire: sta cioè mettendo a punto la strategia operativa e le li
+ nee d'azione\, in termini di erogazione dei servizi agli ETS\, da adottar
+ e nell'anno 2027.\nIl 2027 sarà un anno di particolare rilevanza per il 
+ CSVAA e quindi anche per gli ETS: si concluderà il triennio di progettua
+ lità 2024-2027\, l'ultimo quindi in cui il Centro Servizi opera secondo 
+ direttive individuate nel 2024 e che hanno visto il passaggio dalla mera 
+ erogazione di singoli servizi a una collaborazione strategica con gli ETS
+ .\nUn passaggio obbligato che mirava a sviluppare le capacità organizzat
+ ive e l'autonomia delle associazioni per fare fronte alle rimodulazioni d
+ el budget globale a disposizione del CSVAA e che si è tradotto necessari
+ amente negli ultimi 2 anni nel ridimensionamento di alcuni servizi erogat
+ i dal CSV.\nRicordiamo che tutti i CSV si propongono come punto di riferi
+ mento del mondo del volontariato\, operando per offrire un sup\n\nIscrizi
+ oni: https://forms.gle/TGi6ug9fDqGP6SFV8\n\nhttps://www.csvastialessandri
+ a.it/2026/10/6/csvaa-incontri-programmazione-csvaa-2027-confrontiamoci
+URL:https://www.csvastialessandria.it/2026/10/6/csvaa-incontri-programmazi
+ one-csvaa-2027-confrontiamoci
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSVAA: incontri "Programmazione CSVAA 2027: confrontiamoci!"
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f2428054b8a5d459b49f282490d3db1789896799@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;TZID=Europe/Rome:20261029T170000
+DTEND;TZID=Europe/Rome:20261029T190000
+SUMMARY:FORMAZIONE CSVAA & Fondazione SociAL: "Dono\, digitale e community
+  fundraising" per gli ETS
+LOCATION:Alessandria – 29 ottobre e 5 novembre
+DESCRIPTION:In presenza ad Alessandria – 29 ottobre e 5 novembre\nNell'a
+ mbito delle attività di accompagnamento e rafforzamento rivolte agli Ent
+ i del Terzo Settore delle province di Asti e Alessandria\, il CSVAA \, in
+  collaborazione con Fondazione SociAL e Rete del Dono \, promuove un perc
+ orso formativo dedicato al fundraising digitale e al community fundraisin
+ g.\nIl percorso prevede due incontri in presenza \, della durata di due o
+ re ciascuno \, con un approccio divulgativo ma fortemente orientato alla 
+ pratica\, che si terranno il 29 ottobre e il 5 novembre dalle 17 alle 19 
+ in presenza presso la sede di Cultura e Sviluppo in Piazza Fabrizio De An
+ dre 76\, ad Alessandria.\nL'iniziativa nasce con l'obiettivo di offrire a
+ gli enti una lettura aggiornata dei cambiamenti che stanno trasformando i
+ l mondo del dono e della raccolta fondi \, fornendo al tempo stesso strum
+ enti pratici per sviluppare strategie più partecipative\, sostenibili e 
+ strettamente connesse al territorio. Per molte organizzazioni\, in partic
+ olare quelle che si avvicinano per la prima volta al fundraising struttur
+ ato\, il digitale e il crowdfunding rappresentano infatti un'opportunità
+  concreta per aumentare la propria visibilità \, coinvolgere nu\n\nIscri
+ zioni: https://forms.gle/4zGC6SP2YqrxfZ4E7\n\nhttps://www.csvastialessand
+ ria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-co
+ mmunity-fundraising-per-gli-ets
+URL:https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazi
+ one-social-dono--digitale-e-community-fundraising-per-gli-ets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FORMAZIONE CSVAA & Fondazione SociAL: "Dono\, digitale e commu
+ nity fundraising" per gli ETS
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10605c333292dcbd415279baa02c122789d7065a@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;TZID=Europe/Rome:20261105T170000
+DTEND;TZID=Europe/Rome:20261105T190000
+SUMMARY:FORMAZIONE CSVAA & Fondazione SociAL: "Dono\, digitale e community
+  fundraising" per gli ETS
+LOCATION:Alessandria – 29 ottobre e 5 novembre
+DESCRIPTION:In presenza ad Alessandria – 29 ottobre e 5 novembre\nNell'a
+ mbito delle attività di accompagnamento e rafforzamento rivolte agli Ent
+ i del Terzo Settore delle province di Asti e Alessandria\, il CSVAA \, in
+  collaborazione con Fondazione SociAL e Rete del Dono \, promuove un perc
+ orso formativo dedicato al fundraising digitale e al community fundraisin
+ g.\nIl percorso prevede due incontri in presenza \, della durata di due o
+ re ciascuno \, con un approccio divulgativo ma fortemente orientato alla 
+ pratica\, che si terranno il 29 ottobre e il 5 novembre dalle 17 alle 19 
+ in presenza presso la sede di Cultura e Sviluppo in Piazza Fabrizio De An
+ dre 76\, ad Alessandria.\nL'iniziativa nasce con l'obiettivo di offrire a
+ gli enti una lettura aggiornata dei cambiamenti che stanno trasformando i
+ l mondo del dono e della raccolta fondi \, fornendo al tempo stesso strum
+ enti pratici per sviluppare strategie più partecipative\, sostenibili e 
+ strettamente connesse al territorio. Per molte organizzazioni\, in partic
+ olare quelle che si avvicinano per la prima volta al fundraising struttur
+ ato\, il digitale e il crowdfunding rappresentano infatti un'opportunità
+  concreta per aumentare la propria visibilità \, coinvolgere nu\n\nIscri
+ zioni: https://forms.gle/4zGC6SP2YqrxfZ4E7\n\nhttps://www.csvastialessand
+ ria.it/2026/10/15/formazione-csvaa--fondazione-social-dono--digitale-e-co
+ mmunity-fundraising-per-gli-ets
+URL:https://www.csvastialessandria.it/2026/10/15/formazione-csvaa--fondazi
+ one-social-dono--digitale-e-community-fundraising-per-gli-ets
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FORMAZIONE CSVAA & Fondazione SociAL: "Dono\, digitale e commu
+ nity fundraising" per gli ETS
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b6715fced0df8b620db8ae49d97d173d0d0f5e0b@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;TZID=Europe/Rome:20261120T180000
+DTEND;TZID=Europe/Rome:20261120T200000
+SUMMARY:CSVAA: Incontro ad Alessandria di Orientamento al Volontariato
+LOCATION:Alessandria\, Inchiostro Festival APS in via Bissati\, 27
+DESCRIPTION:20 novembre ore 18 – Beviamo un caffè insieme e parliamo di
+  volontariato!\nIl CSVAA prosegue con l'attività di informazione ed orie
+ ntamento a favore di chi ha voglia di mettersi in gioco .\nPropone\, in m
+ erito\, un incontro ad Alessandria rivolto ad aspiranti volontari\, funzi
+ onali ad illustrare cosa significhi "fare volontariato" e quali opportuni
+ tà sul territorio possono rispondere alle aspettative di ciascuno.\nL'in
+ contro si terrà venerdì 20 novembre alle 18 ad Alessandria nei locali d
+ i Inchiostro Festival APS in via Bissati\, 27.\nFare volontariato non ti 
+ mette sopra gli altri \, ti cambia dentro \, aiutandoti a crescere e a sv
+ iluppare nuove capacità.\nPer poter partecipare basta iscriversi compila
+ ndo qui il modulo .\nPer rendere questo incontro ancora più proficuo e u
+ tile ai nuovi volontari\, invitiamo le Associazioni (area Alessandria) ch
+ e siano alla ricerca di volontari a comunicarlo al CSVAA.\nPer informazio
+ ni: 0131.25.03.89 - al@csvastialessandria.it\n\nIscrizioni: https://forms
+ .gle/uLhUKMst5zqnX5bu5\n\nhttps://www.csvastialessandria.it/2026/11/9/csv
+ aa-incontro-ad-alessandria-di-orientamento-al-volontariato
+URL:https://www.csvastialessandria.it/2026/11/9/csvaa-incontro-ad-alessand
+ ria-di-orientamento-al-volontariato
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSVAA: Incontro ad Alessandria di Orientamento al Volontariato
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c8c3e7617e1a308d42d93c130f81b6c9988e391b@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:CSVAA: Corso Base "Sicurezza sul lavoro per il no profit"
+DESCRIPTION:Si raccolgono pre-iscrizioni funzionali all’attivazione effe
+ ttiva del corso\nIl CSVAA intende proporre a fine novembre un corso di fo
+ rmazione di base dedicato alla "Sicurezza sul lavoro" mirato agli Enti de
+ l Terzo Settore visto che\, in tema di sicurezza sul lavoro\, gli ETS son
+ o equiparati alle Imprese.\nIl datore di lavoro deve predisporre tutte le
+  misure necessarie per proteggere la salute e la sicurezza dei lavoratori
+  che esercitano qualsiasi attività all'interno dell'azienda: il concetto
+  - e la normativa ad esso connessa - si estende anche al mondo delle Asso
+ ciazioni .\nNel rispetto del principio di economicità\, il corso\, previ
+ sto per sabato 28 novembre\, ad Alessandria\, in orario 9 -13 (4 ore)\, s
+ arà attivato esclusivamente a fronte di un numero significativo di ETS/V
+ olontari interessati.\nIl CSVAA raccoglie quindi le pre-iscrizioni sino a
+  lunedì 26 ottobre a questo link .\nA fronte di un numero adeguato di ad
+ esioni saranno aperte le iscrizioni vere e proprie.\nFacciamo presente ch
+ e per partecipare sarà richiesto un deposito cauzionale di € 20 da ver
+ sare\, al momento dell'iscrizione\, con bonifico bancario . La cauzione s
+ arà restituita a corso effettivamente frequentato\nPer informazioni \n\n
+ Iscrizioni: https://forms.gle/G7AS76zoxEuqkUbv7\n\nhttps://www.csvastiale
+ ssandria.it/2026/10/15/csvaa-corso-base-sicurezza-sul-lavoro-per-il-no-pr
+ ofit
+URL:https://www.csvastialessandria.it/2026/10/15/csvaa-corso-base-sicurezz
+ a-sul-lavoro-per-il-no-profit
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CSVAA: Corso Base "Sicurezza sul lavoro per il no profit"
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c091096b7a5331c0483abbe0e3eb2ecffe29b9a4@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Scadenza bando: Bando Oratori\, Terzo Settore\, ex ONLUS 2026 per 
+ arredi\, spazi esterni e sport
+DESCRIPTION:Domande fino al 9 ottobre\nIl bando promosso dal Dipartimento 
+ per lo Sport mette a disposizione contributi fino a 50.000 € per la...\
+ n\nhttps://www.csvastialessandria.it/bandi/articolo.asp?id=249
+URL:https://www.csvastialessandria.it/bandi/articolo.asp?id=249
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade tra 7 giorni: Bando Oratori\, Terzo Settore\, ex ONLUS 2
+ 026 per arredi\, spazi esterni e sport
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fc05ecc10df6ebddcdb4d499d607a0b6c0f8c165@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Scadenza bando: Bando 8 Regione Piemonte
+DESCRIPTION:È stato pubblicato il Bando 8 della Regione Piemonte\, che mi
+ ra a finanziare interventi di rilevanza locale\, promuovendo iniziative s
+ ociali\,...\n\nhttps://www.csvastialessandria.it/bandi/articolo.asp?id=24
+ 7
+URL:https://www.csvastialessandria.it/bandi/articolo.asp?id=247
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade tra 7 giorni: Bando 8 Regione Piemonte
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:86230516dace37fd2bc9e00348ab6d14e015777b@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+SUMMARY:Scadenza bando: Immagini e Prospettive
+DESCRIPTION:Immagini e prospettive è il progetto della Fondazione CRT ded
+ icato alle attività espositive\, al design ed ai festival...\n\nhttps://
+ www.csvastialessandria.it/bandi/articolo.asp?id=244
+URL:https://www.csvastialessandria.it/bandi/articolo.asp?id=244
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade tra 7 giorni: Immagini e Prospettive
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e66d72fba60a820eecca3000765948f81ba22bc2@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+SUMMARY:Scadenza bando: Bando per l’internazionalizzazione dell’offert
+ a culturale
+DESCRIPTION:La Fondazione Compagnia di San Paolo guarda alla cultura come 
+ elemento chiave per il benessere delle persone\, la...\n\nhttps://www.csv
+ astialessandria.it/bandi/articolo.asp?id=245
+URL:https://www.csvastialessandria.it/bandi/articolo.asp?id=245
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade tra 7 giorni: Bando per l’internazionalizzazione dell
+ ’offerta culturale
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:417a0efb10c97aa5797779da0933adb1593585e1@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Scadenza bando: La musica che fa bene ai bambini
+DESCRIPTION:La Musica come fattore comune delle Nostre Aree di Impegno.Sia
+ mo convinti che la Musica\, come strumento di cura\, educazione e integra
+ zione\,...\n\nhttps://www.csvastialessandria.it/bandi/articolo.asp?id=246
+URL:https://www.csvastialessandria.it/bandi/articolo.asp?id=246
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade tra 7 giorni: La musica che fa bene ai bambini
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:75660b207aa920ec764573336cea1d9fc32c1e62@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:Scadenza bando: Fondazione CRT: Bando Missione Soccorso
+DESCRIPTION:Missione Soccorso è il bando della Fondazione CRT che contrib
+ uisce all’efficienza dei servizi di primo soccorso espletati dalle...\n
+ \nhttps://www.csvastialessandria.it/bandi/articolo.asp?id=237
+URL:https://www.csvastialessandria.it/bandi/articolo.asp?id=237
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade tra 7 giorni: Fondazione CRT: Bando Missione Soccorso
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11d5532651df7234ecfdee9085d58a0da55300dd@bussola-csvaa
+DTSTAMP:20261122T112835Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:Scadenza bando: Leroy Merlin: "Bricolage del Cuore"
+DESCRIPTION:Migliorare la casa significa migliorare la vita.Per questo mot
+ ivo\, siamo orgogliosi di annunciare l'apertura della Call 2026 per il "B
+ ricolage del...\n\nhttps://www.csvastialessandria.it/bandi/articolo.asp?i
+ d=240
+URL:https://www.csvastialessandria.it/bandi/articolo.asp?id=240
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Scade tra 7 giorni: Leroy Merlin: "Bricolage del Cuore"
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
