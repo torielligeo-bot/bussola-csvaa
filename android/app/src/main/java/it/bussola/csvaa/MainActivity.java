@@ -19,6 +19,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import androidx.core.app.NotificationManagerCompat;
@@ -41,15 +42,25 @@ public class MainActivity extends Activity {
 
         web = new WebView(this);
         web.setBackgroundColor(Color.WHITE);
-        setContentView(web);
 
-        // Android 15 disegna l'app sotto le barre di sistema: lascio lo spazio giusto
+        // Contenitore che lascia libero lo spazio delle barre di sistema (orologio in alto,
+        // tasti o barra dei gesti in basso). La WebView da sola non rispetta il padding.
+        FrameLayout contenitore = new FrameLayout(this);
+        contenitore.setBackgroundColor(Color.WHITE);
+        contenitore.addView(web, new FrameLayout.LayoutParams(
+                FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
+        setContentView(contenitore);
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            web.setOnApplyWindowInsetsListener((View v, WindowInsets insets) -> {
-                android.graphics.Insets b = insets.getInsets(WindowInsets.Type.systemBars() | WindowInsets.Type.ime());
+            contenitore.setOnApplyWindowInsetsListener((View v, WindowInsets insets) -> {
+                android.graphics.Insets b = insets.getInsets(
+                        WindowInsets.Type.systemBars() | WindowInsets.Type.displayCutout() | WindowInsets.Type.ime());
                 v.setPadding(b.left, b.top, b.right, b.bottom);
                 return WindowInsets.CONSUMED;
             });
+            contenitore.requestApplyInsets();
+        } else {
+            contenitore.setFitsSystemWindows(true);
         }
 
         WebSettings s = web.getSettings();
