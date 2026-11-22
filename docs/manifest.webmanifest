@@ -1,0 +1,16 @@
+{
+  "name": "Bussola CSVAA",
+  "short_name": "Bussola",
+  "description": "Appuntamenti, formazione, bandi e notizie del CSV Asti e Alessandria",
+  "lang": "it",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#1d6fa5",
+  "icons": [
+    { "src": "icona-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icona-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

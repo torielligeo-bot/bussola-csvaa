@@ -1,0 +1,43 @@
+name: Aggiorna dati CSVAA
+
+on:
+  schedule:
+    - cron: '23 * * * *'   # ogni ora, al minuto 23
+  workflow_dispatch:        # avvio a mano dalla scheda Actions
+  push:
+    branches: [main]
+    paths: ['scraper/**', '.github/workflows/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-dati
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Legge il sito e manda le notifiche
+        run: node scraper/scrape.mjs
+        env:
+          NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+      - name: Salva i dati aggiornati
+        run: |
+          git config user.name "bussola-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/dati.json docs/calendario.ics state/stato.json
+          if git diff --cached --quiet; then
+            echo "Nessuna novità"
+          else
+            git commit -m "Aggiornamento dati CSVAA"
+            git pull --rebase
+            git push
+          fi

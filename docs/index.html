@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bussola CSVAA</title>
+<meta name="description" content="Appuntamenti, formazione, bandi e notizie del CSV Asti e Alessandria, con notifiche sul telefono.">
+<meta name="theme-color" content="#1d6fa5">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icona.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icona-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bussola CSVAA">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="testata">
+  <a href="#home" class="logo" aria-label="Home">
+    <img src="https://www.csvastialessandria.it/images/logo2.png" alt="CSV Asti e Alessandria" onerror="this.replaceWith(Object.assign(document.createElement('strong'),{textContent:'CSVAA'}))">
+  </a>
+  <div class="testata-titolo">Bussola</div>
+  <a href="#profilo" class="avatar" id="avatar" aria-label="Il mio profilo">?</a>
+</header>
+<div class="avviso-prototipo">Prototipo non ufficiale · i dati vengono dal sito csvastialessandria.it</div>
+
+<main id="vista" tabindex="-1"></main>
+
+<nav class="barra" aria-label="Sezioni">
+  <a href="#home" data-sez="home"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>
+  <a href="#calendario" data-sez="calendario"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Calendario</a>
+  <a href="#notizie" data-sez="notizie"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h10M7 17h6"/></svg>Notizie</a>
+  <a href="#bandi" data-sez="bandi"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg>Bandi</a>
+  <a href="#servizi" data-sez="servizi"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>Servizi</a>
+</nav>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
