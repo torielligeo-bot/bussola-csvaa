@@ -54,7 +54,9 @@
   function caricaScript(src) {
     return new Promise((ok, ko) => { const s = document.createElement('script'); s.src = src; s.onload = ok; s.onerror = ko; document.head.appendChild(s); });
   }
-  async function avviaFirebase() {
+  let firebasePronto = null;
+  function avviaFirebase() { return firebasePronto || (firebasePronto = caricaFirebase()); }
+  async function caricaFirebase() {
     if (!CFG.firebase) return;
     try {
       const v = '10.12.2';
@@ -64,11 +66,21 @@
       auth = firebase.auth();
       auth.languageCode = 'it';
       auth.onAuthStateChanged(u => { utente = u; aggiornaAvatar(); mostra(); });
-      auth.getRedirectResult().catch(e => toast(erroreAuth(e)));
     } catch (e) {
       console.warn('Firebase non disponibile', e);
     }
   }
+  // L'app Android, dopo l'accesso con l'account Google del telefono, passa qui il token
+  window.bussolaGoogleToken = async token => {
+    try {
+      if (!auth) await avviaFirebase();
+      await auth.signInWithCredential(firebase.auth.GoogleAuthProvider.credential(token));
+      toast('Accesso effettuato');
+      location.hash = '#home';
+    } catch (e) { toast(erroreAuth(e)); mostra(); }
+  };
+  window.bussolaGoogleErrore = msg => { toast(msg || 'Accesso con Google non riuscito'); mostra(); };
+
   function erroreAuth(e) {
     const m = {
       'auth/invalid-credential': 'Email o password non corrette.',
@@ -498,11 +510,9 @@
     };
     const g = document.getElementById('accediGoogle');
     if (g) g.onclick = async () => {
-      const prov = new firebase.auth.GoogleAuthProvider();
-      try {
-        if (/iPhone|iPad|Android/i.test(navigator.userAgent)) await auth.signInWithRedirect(prov);
-        else await auth.signInWithPopup(prov);
-      } catch (e) { toast(erroreAuth(e)); }
+      if (ANDROID && ANDROID.accediConGoogle) { g.disabled = true; ANDROID.accediConGoogle(CFG.googleWebClientId); return; }
+      try { if (!auth) await avviaFirebase(); await auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()); location.hash = '#home'; }
+      catch (e) { toast(erroreAuth(e)); }
     };
     const fa = document.getElementById('formAccesso');
     if (fa) {
@@ -511,6 +521,7 @@
       fa.onsubmit = async ev => {
         ev.preventDefault();
         try {
+          if (!auth) await avviaFirebase();
           if (azione === 'registra') { await auth.createUserWithEmailAndPassword(fa.aMail.value, fa.aPass.value); toast('Account creato'); }
           else await auth.signInWithEmailAndPassword(fa.aMail.value, fa.aPass.value);
           location.hash = '#home';

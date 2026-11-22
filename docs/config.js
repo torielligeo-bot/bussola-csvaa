@@ -6,14 +6,17 @@ window.BUSSOLA_CONFIG = {
 
   // Accesso con Google ed email: incollare qui la configurazione del progetto Firebase
   // (console.firebase.google.com > Impostazioni progetto > Le tue app > Web).
-  // Finché resta null, la registrazione vale solo su questo telefono.
-  firebase: null,
-  // firebase: {
-  //   apiKey: '...',
-  //   authDomain: 'bussola-csvaa.firebaseapp.com',
-  //   projectId: 'bussola-csvaa',
-  //   appId: '...'
-  // },
+  // Questi valori sono identificativi pubblici, non password: possono stare nel codice.
+  firebase: {
+    apiKey: 'AIzaSyAQeRmpIJ8_jtZyIafup7Ipy30qYeLQ4BA',
+    authDomain: 'bussola-csvaa.firebaseapp.com',
+    projectId: 'bussola-csvaa',
+    storageBucket: 'bussola-csvaa.firebasestorage.app',
+    messagingSenderId: '502713426647',
+    appId: '1:502713426647:web:2f3f8ac10c962b481f4692'
+  },
+  // ID client web di Google (identificativo pubblico), usato dall'accesso nativo nell'app Android
+  googleWebClientId: '502713426647-6du8svqrnduu23r3vv5hiijqq4lraasa.apps.googleusercontent.com',
 
   // Contatti usati dalle prenotazioni e dalla pagina servizi
   emailFacilitazione: 'facilitazione@csvaa.it',

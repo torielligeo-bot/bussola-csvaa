@@ -23,6 +23,19 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import androidx.core.app.NotificationManagerCompat;
+import androidx.credentials.Credential;
+import androidx.credentials.CredentialManager;
+import androidx.credentials.CredentialManagerCallback;
+import androidx.credentials.CustomCredential;
+import androidx.credentials.GetCredentialRequest;
+import androidx.credentials.GetCredentialResponse;
+import androidx.credentials.exceptions.GetCredentialCancellationException;
+import androidx.credentials.exceptions.GetCredentialException;
+
+import com.google.android.libraries.identity.googleid.GetSignInWithGoogleOption;
+import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential;
+
+import org.json.JSONObject;
 
 /**
  * Schermata principale: mostra l'app pubblicata su GitHub Pages dentro una WebView.
@@ -182,6 +195,41 @@ public class MainActivity extends Activity {
         @JavascriptInterface
         public String versione() {
             return BuildConfigVersione.nome(MainActivity.this);
+        }
+
+        /** Accesso con l'account Google già presente sul telefono: il token passa alla pagina, che entra in Firebase */
+        @JavascriptInterface
+        public void accediConGoogle(String webClientId) {
+            runOnUiThread(() -> {
+                GetSignInWithGoogleOption opzione = new GetSignInWithGoogleOption.Builder(webClientId).build();
+                GetCredentialRequest richiesta = new GetCredentialRequest.Builder().addCredentialOption(opzione).build();
+                CredentialManager.create(MainActivity.this).getCredentialAsync(
+                        MainActivity.this, richiesta, null, androidx.core.content.ContextCompat.getMainExecutor(MainActivity.this),
+                        new CredentialManagerCallback<GetCredentialResponse, GetCredentialException>() {
+                            @Override
+                            public void onResult(GetCredentialResponse risposta) {
+                                Credential c = risposta.getCredential();
+                                if (c instanceof CustomCredential
+                                        && GoogleIdTokenCredential.TYPE_GOOGLE_ID_TOKEN_CREDENTIAL.equals(c.getType())) {
+                                    String token = GoogleIdTokenCredential.createFrom(c.getData()).getIdToken();
+                                    web.evaluateJavascript("window.bussolaGoogleToken(" + JSONObject.quote(token) + ")", null);
+                                } else {
+                                    errore("Tipo di account non riconosciuto");
+                                }
+                            }
+
+                            @Override
+                            public void onError(GetCredentialException e) {
+                                errore(e instanceof GetCredentialCancellationException
+                                        ? "Accesso annullato"
+                                        : "Accesso con Google non riuscito: " + e.getMessage());
+                            }
+                        });
+            });
+        }
+
+        private void errore(String msg) {
+            web.evaluateJavascript("window.bussolaGoogleErrore(" + JSONObject.quote(msg) + ")", null);
         }
 
         /** Apre il calendario del telefono con l'evento già compilato */

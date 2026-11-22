@@ -49,10 +49,14 @@ La firma dell'APK usa una chiave di prova salvata nel repository (`android/app/b
 
 ## Accesso con Google ed email (Firebase)
 
-1. Vai su console.firebase.google.com e crea un progetto (gratuito).
-2. Authentication > Metodo di accesso: attiva Google ed Email/password.
-3. Authentication > Impostazioni > Domini autorizzati: aggiungi `<utente>.github.io`.
-4. Impostazioni progetto > Le tue app > Web: copia la configurazione in `firebase` dentro `docs/config.js`.
+Il progetto Firebase è `bussola-csvaa` (piano gratuito Spark), con accesso Google ed email/password attivi e il dominio `torielligeo-bot.github.io` autorizzato. La configurazione è in `docs/config.js`.
+
+- Sul sito l'accesso Google usa la finestra di Google.
+- Nell'app Android usa l'account Google già presente sul telefono (Credential Manager) e passa il token a Firebase.
+  Funziona solo con APK firmati dalla chiave registrata in Firebase (impronta SHA-1 in Impostazioni progetto > App Android).
+  Se cambi chiave, o quando l'app va sul Play Store, aggiungi lì anche la nuova impronta.
+
+Gli utenti registrati si vedono in Firebase > Authentication > Utenti.
 
 ## Prova in locale
 
