@@ -47,6 +47,14 @@ Installazione: apri il link dal telefono, scarica il file, aprilo e consenti l'i
 
 La firma dell'APK usa una chiave di prova salvata nel repository (`android/app/bussola-prototipo.jks`). Va bene per provare l'app, ma prima di distribuirla davvero bisogna sostituirla con una chiave privata. Per il Play Store si usa la firma gestita da Google.
 
+## iPhone (versione sperimentale)
+
+Apple non permette di installare app scaricate da un link come l'APK. Su iPhone Bussola si installa dalla schermata Home:
+apri https://torielligeo-bot.github.io/bussola-csvaa/#iphone in Safari, tocca Condividi e poi "Aggiungi alla schermata Home".
+L'app mostra da sola le istruzioni quando la apri da un iPhone. Le notifiche arrivano con l'app gratuita ntfy (canale in `docs/config.js`).
+
+Per un'app vera sull'App Store servono un account Apple Developer (99 dollari l'anno) e la pubblicazione tramite TestFlight o App Store.
+
 ## Accesso con Google ed email (Firebase)
 
 Il progetto Firebase è `bussola-csvaa` (piano gratuito Spark), con accesso Google ed email/password attivi e il dominio `torielligeo-bot.github.io` autorizzato. La configurazione è in `docs/config.js`.

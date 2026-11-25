@@ -10,6 +10,8 @@
 
   const ANDROID = window.BussolaAndroid || null; // presente quando l'app gira nell'APK
   const URL_APK = 'https://github.com/torielligeo-bot/bussola-csvaa/releases/latest/download/Bussola-CSVAA.apk';
+  const IPHONE = /iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const INSTALLATA = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
   let dati = { eventi: [], notizie: [], bandi: [], aggiornato: null };
   let utente = null; // utente Firebase, se configurato
   let auth = null;
@@ -170,7 +172,8 @@
     return `
       <div class="saluto"><h1>${registrato() ? 'Ciao ' + esc(p.nome) : 'Benvenuto'}</h1>
         <p>${nuovi.length ? `<strong>${nuovi.length} novità</strong> dall'ultima visita` : 'Appuntamenti, formazione e bandi del CSVAA'}</p></div>
-      ${!registrato() ? `<div class="richiamo"><strong>Registrati in un minuto</strong><p>Con il profilo puoi prenotare un appuntamento al Punto digitale facile senza riscrivere ogni volta i tuoi dati.</p><a class="bottone" href="#profilo">Registrati</a></div>`
+      ${IPHONE && !INSTALLATA ? `<div class="richiamo"><strong>Installa Bussola sul tuo iPhone</strong><p>Bastano tre tocchi: l'icona va nella schermata Home e l'app si apre a tutto schermo.</p><a class="bottone" href="#iphone">Come si fa</a></div>`
+        : !registrato() ? `<div class="richiamo"><strong>Registrati in un minuto</strong><p>Con il profilo puoi prenotare un appuntamento al Punto digitale facile senza riscrivere ogni volta i tuoi dati.</p><a class="bottone" href="#profilo">Registrati</a></div>`
         : !notifiche ? (!ANDROID && /Android/i.test(navigator.userAgent)
           ? `<div class="richiamo"><strong>Installa l'app sul telefono</strong><p>Con l'app Android le notifiche arrivano da sole: nuovi appuntamenti, promemoria e bandi in scadenza.</p><a class="bottone" href="${URL_APK}">Scarica l'app</a></div>`
           : `<div class="richiamo"><strong>Ricevi le notifiche sul telefono</strong><p>Nuovi appuntamenti, promemoria il giorno prima e bandi in scadenza.</p><a class="bottone" href="#notifiche">Attiva le notifiche</a></div>`) : ''}
@@ -301,7 +304,8 @@
     return `<h1>Servizi</h1>
       ${voce('#prenota', '🖥', 'Prenota il Punto digitale facile', 'Appuntamento con un facilitatore digitale (SPID, fascicolo sanitario, servizi online)')}
       ${voce('#appuntamenti', '📋', 'I miei appuntamenti', 'Richieste inviate ed eventi salvati')}
-      ${!ANDROID ? voce(URL_APK, '📲', 'Scarica l\'app per Android', 'Installa Bussola sul telefono: notifiche già incluse', true) : ''}
+      ${IPHONE && !INSTALLATA ? voce('#iphone', '📱', 'Installa su iPhone', 'Aggiungi Bussola alla schermata Home', false) : ''}
+      ${!ANDROID && !IPHONE ? voce(URL_APK, '📲', 'Scarica l\'app per Android', 'Installa Bussola sul telefono: notifiche già incluse', true) : ''}
       ${voce('#notifiche', '🔔', 'Notifiche e calendario', 'Ricevi gli avvisi sul telefono')}
       ${voce('https://my.csvastialessandria.it/Frontend/Formazione.aspx', '🎓', 'Iscrizione ai corsi (MyCSVAA)', 'Area riservata del CSVAA per la formazione', true)}
       ${voce(SITO + '/newsletter/iscrizione.asp', '✉', 'Newsletter del CSVAA', 'Iscriviti dal sito', true)}
@@ -411,6 +415,30 @@
       if (!confirm('Eliminare questa prenotazione dall\'app? Se il CSVAA l\'ha già confermata, avvisali per disdire.')) return;
       scrivi('appuntamenti', app.filter(x => x.id !== b.dataset.del)); mostra();
     });
+  }
+
+  function vIphone() {
+    const condividi = '<svg viewBox="0 0 24 24" width="22" height="22" style="vertical-align:-4px" fill="none" stroke="#1d6fa5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M8 7l4-4 4 4"/><path d="M5 11v9h14v-9"/></svg>';
+    const safari = /CriOS|FxiOS|EdgiOS/i.test(navigator.userAgent);
+    return `<a class="indietro" href="#servizi">‹ Servizi</a><h1>Bussola su iPhone</h1>
+      <p class="nota">Versione sperimentale. Funziona come un'app: icona sulla schermata Home, apertura a tutto schermo, dati aggiornati ogni ora.</p>
+      ${INSTALLATA ? '<div class="scheda"><h3>✓ Bussola è già installata</h3><p class="meta">La stai usando dalla schermata Home.</p></div>' : `
+      ${safari ? '<div class="scheda" style="border-color:#d9822b"><h3>Apri questa pagina in Safari</h3><p class="meta">Su iPhone l\'installazione funziona solo da Safari. Copia l\'indirizzo e incollalo lì.</p><div class="azioni"><button class="bottone leggero" id="copiaUrl">Copia indirizzo</button></div></div>' : ''}
+      <ol class="passi">
+        <li><strong>Tocca ${condividi} Condividi</strong><div class="nota">È il quadrato con la freccia, in basso al centro (su iPad in alto a destra).</div></li>
+        <li><strong>Scegli "Aggiungi alla schermata Home"</strong><div class="nota">Se non la vedi, scorri l'elenco verso il basso.</div></li>
+        <li><strong>Premi "Aggiungi"</strong><div class="nota">L'icona blu di Bussola compare tra le tue app. Da lì in poi aprila sempre dall'icona.</div></li>
+      </ol>`}
+      <h2>Notifiche su iPhone</h2>
+      <p>Per ricevere gli avvisi installa l'app gratuita <strong>ntfy</strong> e iscriviti al canale del CSVAA: nuovi appuntamenti, promemoria la sera prima, bandi in scadenza.</p>
+      <div class="azioni"><a class="bottone" href="#notifiche">Imposta le notifiche</a></div>
+      <h2>Calendario</h2>
+      <p>Puoi anche abbonarti al calendario del CSVAA: appuntamenti e scadenze compaiono nell'app Calendario dell'iPhone.</p>
+      <div class="azioni"><a class="bottone secondario" href="${esc(new URL('calendario.ics', urlApp()).href.replace(/^https?:/, 'webcal:'))}">Aggiungi al Calendario</a></div>`;
+  }
+  function dopoIphone() {
+    const b = document.getElementById('copiaUrl');
+    if (b) b.onclick = async () => { try { await navigator.clipboard.writeText(urlApp()); toast('Indirizzo copiato: incollalo in Safari'); } catch { toast(urlApp()); } };
   }
 
   function vNotificheAndroid() {
@@ -584,10 +612,11 @@
   const VISTE = {
     home: [vHome], calendario: [vCalendario, dopoCalendario], notizie: [vNotizie, dopoNotizie], bandi: [vBandi],
     servizi: [vServizi], prenota: [vPrenota, dopoPrenota], appuntamenti: [vAppuntamenti, dopoAppuntamenti],
+    iphone: [vIphone, dopoIphone],
     notifiche: ANDROID ? [vNotificheAndroid, dopoNotificheAndroid] : [vNotifiche, dopoNotifiche], profilo: [vProfilo, dopoProfilo],
     evento: [vEvento, dopoEvento], bando: [vBando, dopoBando], giorno: [vGiorno]
   };
-  const SEZ_BARRA = { evento: 'calendario', giorno: 'calendario', bando: 'bandi', prenota: 'servizi', appuntamenti: 'servizi', notifiche: 'servizi' };
+  const SEZ_BARRA = { iphone: 'servizi', evento: 'calendario', giorno: 'calendario', bando: 'bandi', prenota: 'servizi', appuntamenti: 'servizi', notifiche: 'servizi' };
 
   function mostra() {
     const [sez, ...resto] = (location.hash.slice(1) || 'home').split('/');
